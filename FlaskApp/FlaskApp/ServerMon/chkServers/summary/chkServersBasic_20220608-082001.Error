@@ -1,0 +1,23 @@
+emdbaError: chkMounts has issue and needs review: slc11fdp.us.oracle.com
+emdbaError: chkMounts has issue and needs review: slc11quj.us.oracle.com
+emdbaError: chkMounts has issue and needs review: slc11siy.us.oracle.com
+emdbaError: chkMounts has issue and needs review: slc11vuo.us.oracle.com
+emdbaError: chkMounts has issue and needs review: slc11wae.us.oracle.com
+emdbaError: slc11fdo.us.oracle.com: localcdb (ora12234): Status: Down->Down
+emdbaError: slc11quh.us.oracle.com: localcdb (ora2198): Status: Down->Down
+emdbaError: slc11qui.us.oracle.com: localcdb (ora3297): Status: Down->Down
+emdbaError: slc11qun.us.oracle.com: localcdb (ora13312): Status: Down->Down
+emdbaError: slc11rpk.us.oracle.com: localcdb (ora6886): Status: Down->Down
+emdbaError: slc11sge.us.oracle.com: localcdb (ora2414): Status: Down->Down
+emdbaError: slc11sgg.us.oracle.com: localcdb (ora9743): Status: Down->Down
+emdbaError: slc11vrv.us.oracle.com: localcdb (ora4916): Status: Down->Down
+emdbaError: slc11vtq.us.oracle.com: localcdb (ora11719): Status: Down->Down
+emdbaError: slc11vup.us.oracle.com: localcdb (ora8632): Status: Down->Down
+emdbaError: slc11wad.us.oracle.com: localcdb (ora12892): Status: Down->Down
+emdbaError: slc15rsp.us.oracle.com: localcdb (ora10640): Status: Down->Down
+emdbaError: slcaa692.us.oracle.com: localcdb (ora12899): Status: Down->Down
+emdbaError: chkMounts has issue and needs review: slc11fdp.us.oracle.com
+emdbaError: chkMounts has issue and needs review: slc11quj.us.oracle.com
+emdbaError: chkMounts has issue and needs review: slc11siy.us.oracle.com
+emdbaError: chkMounts has issue and needs review: slc11vuo.us.oracle.com
+emdbaError: chkMounts has issue and needs review: slc11wae.us.oracle.com

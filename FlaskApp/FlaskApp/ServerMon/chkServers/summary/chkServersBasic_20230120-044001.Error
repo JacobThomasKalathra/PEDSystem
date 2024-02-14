@@ -1,0 +1,16 @@
+emdbaError: chkMounts has issue and needs review: slc11rpi.us.oracle.com
+emdbaError: chkMounts has issue and needs review: slc11rpj.us.oracle.com
+emdbaError: chkMounts has issue and needs review: slc11rpk.us.oracle.com
+emdbaError: chkTmpIsWritable has issue and needs review: slc11rpi.us.oracle.com
+emdbaError: chkTmpIsWritable has issue and needs review: slc11rpj.us.oracle.com
+emdbaError: chkTmpIsWritable has issue and needs review: slc11rpk.us.oracle.com
+emdbaError: chkMounts has issue and needs review: slc11rpi.us.oracle.com
+emdbaError: chkMounts has issue and needs review: slc11rpj.us.oracle.com
+emdbaError: chkMounts has issue and needs review: slc11rpk.us.oracle.com
+emdbaError: chkEmrefrdb has issue and needs review: slc11rpi.us.oracle.com
+emdbaError: chkEmrefrdb has issue and needs review: slc11rpj.us.oracle.com
+emdbaError: chkEmrefrdb has issue and needs review: slc11rpk.us.oracle.com
+emdbaError: chkDbStatus has issue and needs review: slc11rpi.us.oracle.com
+emdbaError: chkDbStatus has issue and needs review: slc11rpj.us.oracle.com
+emdbaError: chkDbStatus has issue and needs review: slc11rpk.us.oracle.com
+emdbaError: Server down error: slc11que.us.oracle.com slc11quf.us.oracle.com slc11qug.us.oracle.com slc11rpi.us.oracle.com slc11rpj.us.oracle.com slc11rpk.us.oracle.com slc11rpl.us.oracle.com slc11rpm.us.oracle.com slc11rpn.us.oracle.com slc11slu.us.oracle.com 

@@ -1,0 +1,77 @@
+{% extends 'inv_landing.html' %}
+
+{% block body %}
+<div class="ibox border" >
+                    <div class="ibox-head">
+                        <div class="ibox-title">Tools Version</div>
+                    </div>
+                    <div class="ibox-body">
+    <table id="example" class="table table-bordered " style="width:100%;">
+            <thead>
+                <tr style="background:linear-gradient(#3c5a7b,#959da8);color:white;">
+                    <th>Tools Major Version</th>
+                    <th>Count</th>
+                </tr>
+            </thead>
+            <tbody>
+               {% for each_tuple in tools_info %}
+                <tr>
+                    {% for each_col in each_tuple %}
+                    <td>{{each_col}}</td>
+                    {% endfor %}
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        </div>
+          </div>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+  var dataTable = $('#example').dataTable({
+    dom: 'Bfrtip',
+          buttons: [
+              'copy',  
+			  
+			  {
+                extend: 'excelHtml5',
+                title: null,
+                autoFilter: true,
+                filename: 'Tools_Version_{{session['report_time']}}',
+                customize: function( xlsx ) {
+                    var sheet = xlsx.xl.worksheets['sheet1.xml'];
+                    $('row c', sheet).attr( 's', '50' );
+                 }
+                },
+
+			{
+                extend: 'pdfHtml5',
+                title: null,
+                filename: 'Tools_Version_{{session['report_time']}}'
+            }
+          ],
+          initComplete: function () {
+    $('.dataTables_filter input[type="search"]').css({ 'width': '350px', 'height':'50px','display': 'inline-block' ,'border-radius':'10px'});
+    <!-- $('.dataTables_filter label').css({ 'color': 'white'}); -->
+
+  }
+  });
+          var input = $(".dataTables_filter input");
+          input.unbind('keyup search input').bind('keyup',
+          function(e) {
+            if (input.val().length > 0) {
+              var keywords = input.val().trim().split(','), filter = '';
+              for (var i = 0; i < keywords.length; i++) {
+                filter = (filter !== '') ? filter + '|' + keywords[i] : keywords[i];
+              }
+              dataTable.fnFilter(filter, null, true, false, true, true);
+        //                                ^ Treat as regular expression or not
+      } else if (input.val().length == 0) {
+          dataTable.fnFilter(" ", null, true, false, true, true);
+        }
+
+});
+});
+</script>
+
+{% endblock %}

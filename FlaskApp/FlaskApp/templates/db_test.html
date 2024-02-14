@@ -1,0 +1,94 @@
+{% extends 'inv_landing.html' %}
+
+{% block body %}
+<link rel="stylesheet" href="/static/css/loader.css">
+
+<div id="loader">
+
+
+</div>
+<div class="ibox border" id="content">
+	    <div class="ibox-head">
+		<div class="ibox-title">Server Status</div>
+					
+	    </div>
+	    <div class="ibox-body">
+ <table id="example" class="table table-striped table-bordered " style="width:100%;">
+    <thead>
+	<tr style="background:linear-gradient(#3c5a7b,#959da8);color:white;">
+	    <th style ="padding: 5px; text-align: center">SERVER STATUS</th>
+            <th style ="padding: 5px; text-align: center">DB SERVER</th>
+	    <th style ="padding: 5px; text-align: center">SLOT</th>
+            <th style ="padding: 5px; text-align: center">DB NAME</th>
+	    <th style ="padding: 5px; text-align: center">TIMESTAMP</th>
+	</tr>
+    </thead> 
+    <tbody>
+	{% for each_tuple in  db_test_cnt   %}
+	<tr>
+		{% for each_col in each_tuple %}
+                   {% if (loop.index == 1) and (each_col   == "LOCK")  %}
+                     <td  style ="background-color: cyan; padding: 5px; text-align: center " >  {{ each_col }} </td>
+                   {% elif (loop.index == 1) and (each_col   == "ERROR")  %}
+                     <td  style ="background-color: Grey; color:white; padding: 5px; text-align: center " >  {{ each_col }} </td>
+
+                   {% else %}
+
+                     <td style ="padding: 5px; text-align: center ">{{ each_col }} </td>
+                  {% endif %} 
+                {% endfor %}
+         </tr>
+	{% endfor %}
+    </tbody>
+</table>
+	</div>
+	</div>
+<script type="text/javascript">
+$(document).ready(function() {
+var dataTable = $('#example').dataTable({
+"scrollX": true,
+dom: 'Bfrtip',
+buttons: [
+      'copy', 	  {
+	extend: 'excelHtml5',
+	title: null,
+	autoFilter: true,
+	filename: 'DB_Test_{{session['report_time']}}',
+	customize: function( xlsx ) {
+	    var sheet = xlsx.xl.worksheets['sheet1.xml'];
+	    $('row c', sheet).attr( 's', '50' );
+	}
+    },
+
+			{
+                extend: 'pdfHtml5',
+                title: null,
+                filename: 'DB_Test_{{session['report_time']}}',
+                pageSize: 'A1',
+            }
+          ],
+          initComplete: function () {
+    $('.dataTables_filter input[type="search"]').css({ 'width': '350px', 'height':'50px','display': 'inline-block','border-radius':'10px'});
+    <!-- $('.dataTables_filter label').css({ 'color': 'white'}); -->
+  }
+  });
+          var input = $(".dataTables_filter input");
+          input.unbind('keyup search input').bind('keyup',
+          function(e) {
+            if (input.val().length > 0) {
+              var keywords = input.val().trim().split(','), filter = '';
+              for (var i = 0; i < keywords.length; i++) {
+                filter = (filter !== '') ? filter + '|' + keywords[i] : keywords[i];
+              }
+              dataTable.fnFilter(filter, null, true, false, true, true);
+        //                                ^ Treat as regular expression or not
+      } else if (input.val().length == 0) {
+          dataTable.fnFilter(" ", null, true, false, true, true);
+        }
+
+});
+});
+</script>
+<script src="/static/css/loader.js"></script>
+
+{% endblock %}

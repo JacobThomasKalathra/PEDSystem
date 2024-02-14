@@ -1,0 +1,2954 @@
+
+
+< Results from running "chkTmpIsWritable" from slcaa690.us.oracle.com on all the servers in /slot/ems7918/oracle/emMon/dbServerList >
+
+*** slc04kln.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc04klo.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc04klp.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc04wtv.us.oracle.com ***
+emdbaError: chkTmpIsWritable has issue and needs review: slc04wtv.us.oracle.com
+
+*** slc04wtw.us.oracle.com ***
+emdbaError: chkTmpIsWritable has issue and needs review: slc04wtw.us.oracle.com
+
+*** slc07ale.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc07alf.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc07alg.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc07kzo.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc07kzp.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc07kzq.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc09jzu.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc09jzw.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc09kco.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc09kcp.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc09kcq.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc09mju.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc09mjv.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc09mjw.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc09mjx.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc09mjy.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc09mjz.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc09mka.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc09mkb.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc09mkc.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11fdn.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11fdo.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11fdp.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11fdq.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11fdr.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11fds.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11fdt.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11fdu.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11mxn.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11mxo.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11mxp.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11mxq.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11qla.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11qlb.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11qlc.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11qlx.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11qly.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11qlz.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11que.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11quf.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11qug.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11quh.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11qui.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11quj.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11quk.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11qul.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11qum.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11qun.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11quo.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11qup.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11rpc.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11rpd.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11rpe.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11rpf.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11rpg.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11rph.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11rpi.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11rpj.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11rpk.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11rpl.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11rpm.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11rpn.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11sge.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11sgf.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11sgg.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11shc.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11shd.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11she.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11siy.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11siz.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11sja.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11sku.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11skv.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11skx.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11slu.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11vpa.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11vpb.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11vpc.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11vpy.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11vpz.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11vqa.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11vru.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11vrv.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11vrw.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11vss.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11vst.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11vsu.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11vtq.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11vtr.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11vts.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11vuo.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11vup.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11vuq.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11vvm.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11vvn.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11vvo.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11vyg.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11vyh.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11vyi.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11vze.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11vzf.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11vzg.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11wac.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11wad.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc11wae.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc15rsp.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc15rsq.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slc15rsr.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slcaa690.us.oracle.com ***
+Status: /tmp is writable
+
+
+*** slcaa691.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slcaa692.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slcaa694.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+*** slcaa697.us.oracle.com ***
+Status: /tmp is writable
+
+
+
+
+
+
+< Results from running "chkMounts" from slcaa690.us.oracle.com on all the servers in /slot/ems7918/oracle/emMon/dbServerList >
+
+*** slc04kln.us.oracle.com ***
+Success: no mount issue on slc04kln.us.oracle.com
+
+
+
+*** slc04klo.us.oracle.com ***
+Success: no mount issue on slc04klo.us.oracle.com
+
+
+
+*** slc04klp.us.oracle.com ***
+Success: no mount issue on slc04klp.us.oracle.com
+
+
+
+*** slc04wtv.us.oracle.com ***
+emdbaError: chkMounts has issue and needs review: slc04wtv.us.oracle.com
+
+*** slc04wtw.us.oracle.com ***
+emdbaError: chkMounts has issue and needs review: slc04wtw.us.oracle.com
+
+*** slc07ale.us.oracle.com ***
+Success: no mount issue on slc07ale.us.oracle.com
+
+
+
+*** slc07alf.us.oracle.com ***
+Success: no mount issue on slc07alf.us.oracle.com
+
+
+
+*** slc07alg.us.oracle.com ***
+Success: no mount issue on slc07alg.us.oracle.com
+
+
+
+*** slc07kzo.us.oracle.com ***
+Success: no mount issue on slc07kzo.us.oracle.com
+
+
+
+*** slc07kzp.us.oracle.com ***
+Success: no mount issue on slc07kzp.us.oracle.com
+
+
+
+*** slc07kzq.us.oracle.com ***
+Success: no mount issue on slc07kzq.us.oracle.com
+
+
+
+*** slc09jzu.us.oracle.com ***
+Success: no mount issue on slc09jzu.us.oracle.com
+
+
+
+*** slc09jzw.us.oracle.com ***
+Success: no mount issue on slc09jzw.us.oracle.com
+
+
+
+*** slc09kco.us.oracle.com ***
+Success: no mount issue on slc09kco.us.oracle.com
+
+
+
+*** slc09kcp.us.oracle.com ***
+Success: no mount issue on slc09kcp.us.oracle.com
+
+
+
+*** slc09kcq.us.oracle.com ***
+Success: no mount issue on slc09kcq.us.oracle.com
+
+
+
+*** slc09mju.us.oracle.com ***
+Success: no mount issue on slc09mju.us.oracle.com
+
+
+
+*** slc09mjv.us.oracle.com ***
+Success: no mount issue on slc09mjv.us.oracle.com
+
+
+
+*** slc09mjw.us.oracle.com ***
+Success: no mount issue on slc09mjw.us.oracle.com
+
+
+
+*** slc09mjx.us.oracle.com ***
+Success: no mount issue on slc09mjx.us.oracle.com
+
+
+
+*** slc09mjy.us.oracle.com ***
+Success: no mount issue on slc09mjy.us.oracle.com
+
+
+
+*** slc09mjz.us.oracle.com ***
+Success: no mount issue on slc09mjz.us.oracle.com
+
+
+
+*** slc09mka.us.oracle.com ***
+Success: no mount issue on slc09mka.us.oracle.com
+
+
+
+*** slc09mkb.us.oracle.com ***
+Success: no mount issue on slc09mkb.us.oracle.com
+
+
+
+*** slc09mkc.us.oracle.com ***
+Success: no mount issue on slc09mkc.us.oracle.com
+
+
+
+*** slc11fdn.us.oracle.com ***
+Success: no mount issue on slc11fdn.us.oracle.com
+
+
+
+*** slc11fdo.us.oracle.com ***
+Success: no mount issue on slc11fdo.us.oracle.com
+
+
+
+*** slc11fdp.us.oracle.com ***
+Success: no mount issue on slc11fdp.us.oracle.com
+
+
+
+*** slc11fdq.us.oracle.com ***
+Success: no mount issue on slc11fdq.us.oracle.com
+
+
+
+*** slc11fdr.us.oracle.com ***
+Success: no mount issue on slc11fdr.us.oracle.com
+
+
+
+*** slc11fds.us.oracle.com ***
+Success: no mount issue on slc11fds.us.oracle.com
+
+
+
+*** slc11fdt.us.oracle.com ***
+Success: no mount issue on slc11fdt.us.oracle.com
+
+
+
+*** slc11fdu.us.oracle.com ***
+Success: no mount issue on slc11fdu.us.oracle.com
+
+
+
+*** slc11mxn.us.oracle.com ***
+Success: no mount issue on slc11mxn.us.oracle.com
+
+
+
+*** slc11mxo.us.oracle.com ***
+Success: no mount issue on slc11mxo.us.oracle.com
+
+
+
+*** slc11mxp.us.oracle.com ***
+Success: no mount issue on slc11mxp.us.oracle.com
+
+
+
+*** slc11mxq.us.oracle.com ***
+Success: no mount issue on slc11mxq.us.oracle.com
+
+
+
+*** slc11qla.us.oracle.com ***
+Success: no mount issue on slc11qla.us.oracle.com
+
+
+
+*** slc11qlb.us.oracle.com ***
+Success: no mount issue on slc11qlb.us.oracle.com
+
+
+
+*** slc11qlc.us.oracle.com ***
+Success: no mount issue on slc11qlc.us.oracle.com
+
+
+
+*** slc11qlx.us.oracle.com ***
+Success: no mount issue on slc11qlx.us.oracle.com
+
+
+
+*** slc11qly.us.oracle.com ***
+Success: no mount issue on slc11qly.us.oracle.com
+
+
+
+*** slc11qlz.us.oracle.com ***
+Success: no mount issue on slc11qlz.us.oracle.com
+
+
+
+*** slc11que.us.oracle.com ***
+Success: no mount issue on slc11que.us.oracle.com
+
+
+
+*** slc11quf.us.oracle.com ***
+Success: no mount issue on slc11quf.us.oracle.com
+
+
+
+*** slc11qug.us.oracle.com ***
+Success: no mount issue on slc11qug.us.oracle.com
+
+
+
+*** slc11quh.us.oracle.com ***
+Success: no mount issue on slc11quh.us.oracle.com
+
+
+
+*** slc11qui.us.oracle.com ***
+Success: no mount issue on slc11qui.us.oracle.com
+
+
+
+*** slc11quj.us.oracle.com ***
+Success: no mount issue on slc11quj.us.oracle.com
+
+
+
+*** slc11quk.us.oracle.com ***
+Success: no mount issue on slc11quk.us.oracle.com
+
+
+
+*** slc11qul.us.oracle.com ***
+Success: no mount issue on slc11qul.us.oracle.com
+
+
+
+*** slc11qum.us.oracle.com ***
+Success: no mount issue on slc11qum.us.oracle.com
+
+
+
+*** slc11qun.us.oracle.com ***
+Success: no mount issue on slc11qun.us.oracle.com
+
+
+
+*** slc11quo.us.oracle.com ***
+Success: no mount issue on slc11quo.us.oracle.com
+
+
+
+*** slc11qup.us.oracle.com ***
+Success: no mount issue on slc11qup.us.oracle.com
+
+
+
+*** slc11rpc.us.oracle.com ***
+Success: no mount issue on slc11rpc.us.oracle.com
+
+
+
+*** slc11rpd.us.oracle.com ***
+Success: no mount issue on slc11rpd.us.oracle.com
+
+
+
+*** slc11rpe.us.oracle.com ***
+Success: no mount issue on slc11rpe.us.oracle.com
+
+
+
+*** slc11rpf.us.oracle.com ***
+Success: no mount issue on slc11rpf.us.oracle.com
+
+
+
+*** slc11rpg.us.oracle.com ***
+Success: no mount issue on slc11rpg.us.oracle.com
+
+
+
+*** slc11rph.us.oracle.com ***
+Success: no mount issue on slc11rph.us.oracle.com
+
+
+
+*** slc11rpi.us.oracle.com ***
+Success: no mount issue on slc11rpi.us.oracle.com
+
+
+
+*** slc11rpj.us.oracle.com ***
+Success: no mount issue on slc11rpj.us.oracle.com
+
+
+
+*** slc11rpk.us.oracle.com ***
+Success: no mount issue on slc11rpk.us.oracle.com
+
+
+
+*** slc11rpl.us.oracle.com ***
+Success: no mount issue on slc11rpl.us.oracle.com
+
+
+
+*** slc11rpm.us.oracle.com ***
+Success: no mount issue on slc11rpm.us.oracle.com
+
+
+
+*** slc11rpn.us.oracle.com ***
+Success: no mount issue on slc11rpn.us.oracle.com
+
+
+
+*** slc11sge.us.oracle.com ***
+Success: no mount issue on slc11sge.us.oracle.com
+
+
+
+*** slc11sgf.us.oracle.com ***
+Success: no mount issue on slc11sgf.us.oracle.com
+
+
+
+*** slc11sgg.us.oracle.com ***
+Success: no mount issue on slc11sgg.us.oracle.com
+
+
+
+*** slc11shc.us.oracle.com ***
+Success: no mount issue on slc11shc.us.oracle.com
+
+
+
+*** slc11shd.us.oracle.com ***
+Success: no mount issue on slc11shd.us.oracle.com
+
+
+
+*** slc11she.us.oracle.com ***
+Success: no mount issue on slc11she.us.oracle.com
+
+
+
+*** slc11siy.us.oracle.com ***
+Success: no mount issue on slc11siy.us.oracle.com
+
+
+
+*** slc11siz.us.oracle.com ***
+Success: no mount issue on slc11siz.us.oracle.com
+
+
+
+*** slc11sja.us.oracle.com ***
+Success: no mount issue on slc11sja.us.oracle.com
+
+
+
+*** slc11sku.us.oracle.com ***
+Success: no mount issue on slc11sku.us.oracle.com
+
+
+
+*** slc11skv.us.oracle.com ***
+Success: no mount issue on slc11skv.us.oracle.com
+
+
+
+*** slc11skx.us.oracle.com ***
+Success: no mount issue on slc11skx.us.oracle.com
+
+
+
+*** slc11slu.us.oracle.com ***
+Success: no mount issue on slc11slu.us.oracle.com
+
+
+
+*** slc11vpa.us.oracle.com ***
+Success: no mount issue on slc11vpa.us.oracle.com
+
+
+
+*** slc11vpb.us.oracle.com ***
+Success: no mount issue on slc11vpb.us.oracle.com
+
+
+
+*** slc11vpc.us.oracle.com ***
+Success: no mount issue on slc11vpc.us.oracle.com
+
+
+
+*** slc11vpy.us.oracle.com ***
+Success: no mount issue on slc11vpy.us.oracle.com
+
+
+
+*** slc11vpz.us.oracle.com ***
+Success: no mount issue on slc11vpz.us.oracle.com
+
+
+
+*** slc11vqa.us.oracle.com ***
+Success: no mount issue on slc11vqa.us.oracle.com
+
+
+
+*** slc11vru.us.oracle.com ***
+Success: no mount issue on slc11vru.us.oracle.com
+
+
+
+*** slc11vrv.us.oracle.com ***
+Success: no mount issue on slc11vrv.us.oracle.com
+
+
+
+*** slc11vrw.us.oracle.com ***
+Success: no mount issue on slc11vrw.us.oracle.com
+
+
+
+*** slc11vss.us.oracle.com ***
+Success: no mount issue on slc11vss.us.oracle.com
+
+
+
+*** slc11vst.us.oracle.com ***
+Success: no mount issue on slc11vst.us.oracle.com
+
+
+
+*** slc11vsu.us.oracle.com ***
+Success: no mount issue on slc11vsu.us.oracle.com
+
+
+
+*** slc11vtq.us.oracle.com ***
+Success: no mount issue on slc11vtq.us.oracle.com
+
+
+
+*** slc11vtr.us.oracle.com ***
+Success: no mount issue on slc11vtr.us.oracle.com
+
+
+
+*** slc11vts.us.oracle.com ***
+Success: no mount issue on slc11vts.us.oracle.com
+
+
+
+*** slc11vuo.us.oracle.com ***
+Success: no mount issue on slc11vuo.us.oracle.com
+
+
+
+*** slc11vup.us.oracle.com ***
+Success: no mount issue on slc11vup.us.oracle.com
+
+
+
+*** slc11vuq.us.oracle.com ***
+Success: no mount issue on slc11vuq.us.oracle.com
+
+
+
+*** slc11vvm.us.oracle.com ***
+Success: no mount issue on slc11vvm.us.oracle.com
+
+
+
+*** slc11vvn.us.oracle.com ***
+Success: no mount issue on slc11vvn.us.oracle.com
+
+
+
+*** slc11vvo.us.oracle.com ***
+Success: no mount issue on slc11vvo.us.oracle.com
+
+
+
+*** slc11vyg.us.oracle.com ***
+Success: no mount issue on slc11vyg.us.oracle.com
+
+
+
+*** slc11vyh.us.oracle.com ***
+Success: no mount issue on slc11vyh.us.oracle.com
+
+
+
+*** slc11vyi.us.oracle.com ***
+Success: no mount issue on slc11vyi.us.oracle.com
+
+
+
+*** slc11vze.us.oracle.com ***
+Success: no mount issue on slc11vze.us.oracle.com
+
+
+
+*** slc11vzf.us.oracle.com ***
+Success: no mount issue on slc11vzf.us.oracle.com
+
+
+
+*** slc11vzg.us.oracle.com ***
+Success: no mount issue on slc11vzg.us.oracle.com
+
+
+
+*** slc11wac.us.oracle.com ***
+Success: no mount issue on slc11wac.us.oracle.com
+
+
+
+*** slc11wad.us.oracle.com ***
+Success: no mount issue on slc11wad.us.oracle.com
+
+
+
+*** slc11wae.us.oracle.com ***
+Success: no mount issue on slc11wae.us.oracle.com
+
+
+
+*** slc15rsp.us.oracle.com ***
+Success: no mount issue on slc15rsp.us.oracle.com
+
+
+
+*** slc15rsq.us.oracle.com ***
+Success: no mount issue on slc15rsq.us.oracle.com
+
+
+
+*** slc15rsr.us.oracle.com ***
+Success: no mount issue on slc15rsr.us.oracle.com
+
+
+
+*** slcaa690.us.oracle.com ***
+Success: no mount issue on slcaa690.us.oracle.com
+
+
+
+*** slcaa691.us.oracle.com ***
+Success: no mount issue on slcaa691.us.oracle.com
+
+
+
+*** slcaa692.us.oracle.com ***
+Success: no mount issue on slcaa692.us.oracle.com
+
+
+
+*** slcaa694.us.oracle.com ***
+Success: no mount issue on slcaa694.us.oracle.com
+
+
+
+*** slcaa697.us.oracle.com ***
+Success: no mount issue on slcaa697.us.oracle.com
+
+
+
+
+
+
+< Results from running "chkEmrefrdb" from slcaa690.us.oracle.com on all the servers in /slot/ems7918/oracle/emMon/dbServerList >
+
+*** slc04kln.us.oracle.com ***
+slc04kln.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc04klo.us.oracle.com ***
+slc04klo.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc04klp.us.oracle.com ***
+slc04klp.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc04wtv.us.oracle.com ***
+emdbaError: chkEmrefrdb has issue and needs review: slc04wtv.us.oracle.com
+
+*** slc04wtw.us.oracle.com ***
+emdbaError: chkEmrefrdb has issue and needs review: slc04wtw.us.oracle.com
+
+*** slc07ale.us.oracle.com ***
+slc07ale.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc07alf.us.oracle.com ***
+slc07alf.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc07alg.us.oracle.com ***
+slc07alg.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc07kzo.us.oracle.com ***
+slc07kzo.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc07kzp.us.oracle.com ***
+slc07kzp.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc07kzq.us.oracle.com ***
+slc07kzq.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc09jzu.us.oracle.com ***
+slc09jzu.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc09jzw.us.oracle.com ***
+slc09jzw.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc09kco.us.oracle.com ***
+slc09kco.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc09kcp.us.oracle.com ***
+slc09kcp.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc09kcq.us.oracle.com ***
+slc09kcq.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc09mju.us.oracle.com ***
+slc09mju.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc09mjv.us.oracle.com ***
+slc09mjv.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc09mjw.us.oracle.com ***
+slc09mjw.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc09mjx.us.oracle.com ***
+slc09mjx.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc09mjy.us.oracle.com ***
+slc09mjy.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc09mjz.us.oracle.com ***
+slc09mjz.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc09mka.us.oracle.com ***
+slc09mka.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc09mkb.us.oracle.com ***
+slc09mkb.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc09mkc.us.oracle.com ***
+slc09mkc.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11fdn.us.oracle.com ***
+slc11fdn.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11fdo.us.oracle.com ***
+slc11fdo.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11fdp.us.oracle.com ***
+slc11fdp.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11fdq.us.oracle.com ***
+slc11fdq.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11fdr.us.oracle.com ***
+slc11fdr.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11fds.us.oracle.com ***
+slc11fds.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11fdt.us.oracle.com ***
+slc11fdt.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11fdu.us.oracle.com ***
+slc11fdu.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11mxn.us.oracle.com ***
+slc11mxn.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11mxo.us.oracle.com ***
+slc11mxo.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11mxp.us.oracle.com ***
+slc11mxp.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11mxq.us.oracle.com ***
+slc11mxq.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11qla.us.oracle.com ***
+slc11qla.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11qlb.us.oracle.com ***
+slc11qlb.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11qlc.us.oracle.com ***
+slc11qlc.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11qlx.us.oracle.com ***
+slc11qlx.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11qly.us.oracle.com ***
+slc11qly.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11qlz.us.oracle.com ***
+slc11qlz.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11que.us.oracle.com ***
+slc11que.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11quf.us.oracle.com ***
+slc11quf.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11qug.us.oracle.com ***
+slc11qug.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11quh.us.oracle.com ***
+slc11quh.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11qui.us.oracle.com ***
+slc11qui.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11quj.us.oracle.com ***
+slc11quj.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11quk.us.oracle.com ***
+slc11quk.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11qul.us.oracle.com ***
+slc11qul.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11qum.us.oracle.com ***
+slc11qum.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11qun.us.oracle.com ***
+slc11qun.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11quo.us.oracle.com ***
+slc11quo.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11qup.us.oracle.com ***
+slc11qup.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11rpc.us.oracle.com ***
+slc11rpc.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11rpd.us.oracle.com ***
+slc11rpd.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11rpe.us.oracle.com ***
+slc11rpe.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11rpf.us.oracle.com ***
+slc11rpf.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11rpg.us.oracle.com ***
+slc11rpg.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11rph.us.oracle.com ***
+slc11rph.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11rpi.us.oracle.com ***
+slc11rpi.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11rpj.us.oracle.com ***
+slc11rpj.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11rpk.us.oracle.com ***
+slc11rpk.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11rpl.us.oracle.com ***
+slc11rpl.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11rpm.us.oracle.com ***
+slc11rpm.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11rpn.us.oracle.com ***
+slc11rpn.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11sge.us.oracle.com ***
+slc11sge.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11sgf.us.oracle.com ***
+slc11sgf.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11sgg.us.oracle.com ***
+slc11sgg.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11shc.us.oracle.com ***
+slc11shc.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11shd.us.oracle.com ***
+slc11shd.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11she.us.oracle.com ***
+slc11she.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11siy.us.oracle.com ***
+slc11siy.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11siz.us.oracle.com ***
+slc11siz.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11sja.us.oracle.com ***
+slc11sja.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11sku.us.oracle.com ***
+slc11sku.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11skv.us.oracle.com ***
+slc11skv.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11skx.us.oracle.com ***
+slc11skx.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11slu.us.oracle.com ***
+slc11slu.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11vpa.us.oracle.com ***
+slc11vpa.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11vpb.us.oracle.com ***
+slc11vpb.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11vpc.us.oracle.com ***
+slc11vpc.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11vpy.us.oracle.com ***
+slc11vpy.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11vpz.us.oracle.com ***
+slc11vpz.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11vqa.us.oracle.com ***
+slc11vqa.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11vru.us.oracle.com ***
+slc11vru.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11vrv.us.oracle.com ***
+slc11vrv.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11vrw.us.oracle.com ***
+slc11vrw.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11vss.us.oracle.com ***
+slc11vss.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11vst.us.oracle.com ***
+slc11vst.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11vsu.us.oracle.com ***
+slc11vsu.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11vtq.us.oracle.com ***
+slc11vtq.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11vtr.us.oracle.com ***
+slc11vtr.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11vts.us.oracle.com ***
+slc11vts.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11vuo.us.oracle.com ***
+slc11vuo.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11vup.us.oracle.com ***
+slc11vup.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11vuq.us.oracle.com ***
+slc11vuq.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11vvm.us.oracle.com ***
+slc11vvm.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11vvn.us.oracle.com ***
+slc11vvn.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11vvo.us.oracle.com ***
+slc11vvo.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11vyg.us.oracle.com ***
+slc11vyg.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11vyh.us.oracle.com ***
+slc11vyh.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11vyi.us.oracle.com ***
+slc11vyi.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11vze.us.oracle.com ***
+slc11vze.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11vzf.us.oracle.com ***
+slc11vzf.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11vzg.us.oracle.com ***
+slc11vzg.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11wac.us.oracle.com ***
+slc11wac.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11wad.us.oracle.com ***
+slc11wad.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc11wae.us.oracle.com ***
+slc11wae.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc15rsp.us.oracle.com ***
+slc15rsp.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc15rsq.us.oracle.com ***
+slc15rsq.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slc15rsr.us.oracle.com ***
+slc15rsr.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slcaa690.us.oracle.com ***
+slcaa690.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slcaa691.us.oracle.com ***
+slcaa691.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slcaa692.us.oracle.com ***
+slcaa692.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slcaa694.us.oracle.com ***
+slcaa694.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+*** slcaa697.us.oracle.com ***
+slcaa697.us.oracle.com: Status: LSNR:Up EMREF:Up 
+
+
+
+
+
+
+< Results from running "chkDbStatus" from slcaa690.us.oracle.com on all the servers in /slot/ems7918/oracle/emMon/dbServerList >
+
+*** slc04kln.us.oracle.com ***
+slc04kln.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc04klo.us.oracle.com ***
+slc04klo.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc04klp.us.oracle.com ***
+slc04klp.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc04wtv.us.oracle.com ***
+emdbaError: chkDbStatus has issue and needs review: slc04wtv.us.oracle.com
+
+*** slc04wtw.us.oracle.com ***
+emdbaError: chkDbStatus has issue and needs review: slc04wtw.us.oracle.com
+
+*** slc07ale.us.oracle.com ***
+slc07ale.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc07alf.us.oracle.com ***
+slc07alf.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc07alg.us.oracle.com ***
+slc07alg.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc07kzo.us.oracle.com ***
+slc07kzo.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc07kzp.us.oracle.com ***
+slc07kzp.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc07kzq.us.oracle.com ***
+slc07kzq.us.oracle.com: Status: Success - no db to monitor on the host
+
+
+
+*** slc09jzu.us.oracle.com ***
+slc09jzu.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc09jzw.us.oracle.com ***
+slc09jzw.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc09kco.us.oracle.com ***
+slc09kco.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc09kcp.us.oracle.com ***
+slc09kcp.us.oracle.com: Status: Success - no db to monitor on the host
+
+
+
+*** slc09kcq.us.oracle.com ***
+slc09kcq.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc09mju.us.oracle.com ***
+slc09mju.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc09mjv.us.oracle.com ***
+slc09mjv.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc09mjw.us.oracle.com ***
+slc09mjw.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc09mjx.us.oracle.com ***
+slc09mjx.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc09mjy.us.oracle.com ***
+slc09mjy.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc09mjz.us.oracle.com ***
+slc09mjz.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc09mka.us.oracle.com ***
+slc09mka.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc09mkb.us.oracle.com ***
+slc09mkb.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc09mkc.us.oracle.com ***
+slc09mkc.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11fdn.us.oracle.com ***
+slc11fdn.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11fdo.us.oracle.com ***
+slc11fdo.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11fdp.us.oracle.com ***
+slc11fdp.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11fdq.us.oracle.com ***
+slc11fdq.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11fdr.us.oracle.com ***
+slc11fdr.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11fds.us.oracle.com ***
+slc11fds.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11fdt.us.oracle.com ***
+slc11fdt.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11fdu.us.oracle.com ***
+slc11fdu.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11mxn.us.oracle.com ***
+slc11mxn.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11mxo.us.oracle.com ***
+slc11mxo.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11mxp.us.oracle.com ***
+slc11mxp.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11mxq.us.oracle.com ***
+slc11mxq.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11qla.us.oracle.com ***
+slc11qla.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11qlb.us.oracle.com ***
+slc11qlb.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11qlc.us.oracle.com ***
+slc11qlc.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11qlx.us.oracle.com ***
+slc11qlx.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11qly.us.oracle.com ***
+slc11qly.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11qlz.us.oracle.com ***
+slc11qlz.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: loccdb12, localcdb)
+
+
+
+*** slc11que.us.oracle.com ***
+slc11que.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11quf.us.oracle.com ***
+slc11quf.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11qug.us.oracle.com ***
+slc11qug.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11quh.us.oracle.com ***
+slc11quh.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11qui.us.oracle.com ***
+slc11qui.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11quj.us.oracle.com ***
+slc11quj.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11quk.us.oracle.com ***
+slc11quk.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11qul.us.oracle.com ***
+slc11qul.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11qum.us.oracle.com ***
+slc11qum.us.oracle.com: Status: Success - no db to monitor on the host
+
+
+
+*** slc11qun.us.oracle.com ***
+slc11qun.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11quo.us.oracle.com ***
+slc11quo.us.oracle.com: Status: Success - no db to monitor on the host
+
+
+
+*** slc11qup.us.oracle.com ***
+slc11qup.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11rpc.us.oracle.com ***
+slc11rpc.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11rpd.us.oracle.com ***
+slc11rpd.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11rpe.us.oracle.com ***
+slc11rpe.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11rpf.us.oracle.com ***
+slc11rpf.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11rpg.us.oracle.com ***
+slc11rpg.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11rph.us.oracle.com ***
+slc11rph.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11rpi.us.oracle.com ***
+slc11rpi.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11rpj.us.oracle.com ***
+slc11rpj.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11rpk.us.oracle.com ***
+slc11rpk.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11rpl.us.oracle.com ***
+slc11rpl.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11rpm.us.oracle.com ***
+slc11rpm.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11rpn.us.oracle.com ***
+slc11rpn.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11sge.us.oracle.com ***
+slc11sge.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11sgf.us.oracle.com ***
+slc11sgf.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11sgg.us.oracle.com ***
+slc11sgg.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11shc.us.oracle.com ***
+slc11shc.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11shd.us.oracle.com ***
+slc11shd.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11she.us.oracle.com ***
+slc11she.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11siy.us.oracle.com ***
+slc11siy.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11siz.us.oracle.com ***
+slc11siz.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11sja.us.oracle.com ***
+slc11sja.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11sku.us.oracle.com ***
+slc11sku.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11skv.us.oracle.com ***
+slc11skv.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11skx.us.oracle.com ***
+slc11skx.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11slu.us.oracle.com ***
+slc11slu.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11vpa.us.oracle.com ***
+slc11vpa.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: loccdb12, localcdb)
+
+
+
+*** slc11vpb.us.oracle.com ***
+slc11vpb.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: loccdb12, localcdb)
+
+
+
+*** slc11vpc.us.oracle.com ***
+slc11vpc.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11vpy.us.oracle.com ***
+slc11vpy.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: loccdb12, localcdb)
+
+
+
+*** slc11vpz.us.oracle.com ***
+slc11vpz.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: loccdb12, localcdb)
+
+
+
+*** slc11vqa.us.oracle.com ***
+slc11vqa.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: loccdb12, localcdb)
+
+
+
+*** slc11vru.us.oracle.com ***
+slc11vru.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11vrv.us.oracle.com ***
+slc11vrv.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11vrw.us.oracle.com ***
+slc11vrw.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: loccdb12, localcdb)
+
+
+
+*** slc11vss.us.oracle.com ***
+slc11vss.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11vst.us.oracle.com ***
+slc11vst.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11vsu.us.oracle.com ***
+slc11vsu.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11vtq.us.oracle.com ***
+slc11vtq.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11vtr.us.oracle.com ***
+slc11vtr.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11vts.us.oracle.com ***
+slc11vts.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11vuo.us.oracle.com ***
+slc11vuo.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11vup.us.oracle.com ***
+slc11vup.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: loccdb12, localcdb)
+
+
+
+*** slc11vuq.us.oracle.com ***
+slc11vuq.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: loccdb12, localcdb)
+
+
+
+*** slc11vvm.us.oracle.com ***
+slc11vvm.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11vvn.us.oracle.com ***
+slc11vvn.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11vvo.us.oracle.com ***
+slc11vvo.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11vyg.us.oracle.com ***
+slc11vyg.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11vyh.us.oracle.com ***
+slc11vyh.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11vyi.us.oracle.com ***
+slc11vyi.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11vze.us.oracle.com ***
+slc11vze.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11vzf.us.oracle.com ***
+slc11vzf.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11vzg.us.oracle.com ***
+slc11vzg.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc11wac.us.oracle.com ***
+slc11wac.us.oracle.com: Status: Success - no db to monitor on the host
+
+
+
+*** slc11wad.us.oracle.com ***
+slc11wad.us.oracle.com: Status: Success - no db to monitor on the host
+
+
+
+*** slc11wae.us.oracle.com ***
+slc11wae.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc15rsp.us.oracle.com ***
+slc15rsp.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc15rsq.us.oracle.com ***
+slc15rsq.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slc15rsr.us.oracle.com ***
+slc15rsr.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slcaa690.us.oracle.com ***
+slcaa690.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slcaa691.us.oracle.com ***
+slcaa691.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slcaa692.us.oracle.com ***
+slcaa692.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slcaa694.us.oracle.com ***
+slcaa694.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+*** slcaa697.us.oracle.com ***
+slcaa697.us.oracle.com: Status: Success - all dbs being monitored were up (Monitoring: localcdb)
+
+
+
+
+
+
+< Results from running "chkSudoAccess" from slcaa690.us.oracle.com on all the servers in /slot/ems7918/oracle/emMon/dbServerList >
+
+*** slc04kln.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc04klo.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc04klp.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc07ale.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc07alf.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc07alg.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc07kzo.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc07kzp.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc07kzq.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc09jzu.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc09jzw.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc09kco.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc09kcp.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc09kcq.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc09mju.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc09mjv.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc09mjw.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc09mjx.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc09mjy.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc09mjz.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc09mka.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc09mkb.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc09mkc.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11fdn.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11fdo.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11fdp.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11fdq.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11fdr.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11fds.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11fdt.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11fdu.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11mxn.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11mxo.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11mxp.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11mxq.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11qla.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11qlb.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11qlc.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11qlx.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11qly.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11qlz.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11que.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11quf.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11qug.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11quh.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11qui.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11quj.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11quk.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11qul.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11qum.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11qun.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11quo.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11qup.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11rpc.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11rpd.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11rpe.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11rpf.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11rpg.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11rph.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11rpi.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11rpj.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11rpk.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11rpl.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11rpm.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11rpn.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11sge.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11sgf.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11sgg.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11shc.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11shd.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11she.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11siy.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11siz.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11sja.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11sku.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11skv.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11skx.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11slu.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11vpa.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11vpb.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11vpc.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11vpy.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11vpz.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11vqa.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11vru.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11vrv.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11vrw.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11vss.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11vst.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11vsu.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11vtq.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11vtr.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11vts.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11vuo.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11vup.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11vuq.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11vvm.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11vvn.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11vvo.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11vyg.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11vyh.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11vyi.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11vze.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11vzf.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11vzg.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11wac.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11wad.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc11wae.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc15rsp.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc15rsq.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slc15rsr.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slcaa690.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slcaa691.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slcaa692.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slcaa694.us.oracle.com ***
+Status: sudo access verified
+
+
+
+*** slcaa697.us.oracle.com ***
+Status: sudo access verified
+
+
+
+
+
+End of chkServersBasic report
+
+chkServersBasic completed with error.  Some errors were found so follow up is required.
+ Check logs in /slot/ems7918/oracle/emMon/logs/* and look for a keyword "emdbaError".
+ Error type: chkTmpIsWritable chkMounts chkEmrefrdb chkDbStatus 

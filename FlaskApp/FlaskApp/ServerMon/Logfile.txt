@@ -1,0 +1,10 @@
+/var/www/FlaskApp/FlaskApp/ServerMon/chkServers/summary/chkServersBasic_20220126-154001
+/var/www/FlaskApp/FlaskApp/ServerMon/chkServers/summary/chkServersBasic_20220126-232001
+/var/www/FlaskApp/FlaskApp/ServerMon/chkServers/summary/chkServersBasic_20220127-002001
+/var/www/FlaskApp/FlaskApp/ServerMon/chkServers/summary/chkServersBasic_20220127-050001
+/var/www/FlaskApp/FlaskApp/ServerMon/chkServers/summary/chkServersBasic_20220127-232001
+/var/www/FlaskApp/FlaskApp/ServerMon/chkServers/summary/chkServersBasic_20220128-012001
+/var/www/FlaskApp/FlaskApp/ServerMon/chkServers/summary/chkServersBasic_20220128-060002
+/var/www/FlaskApp/FlaskApp/ServerMon/chkServers/summary/chkServersBasic_20220128-102001
+/var/www/FlaskApp/FlaskApp/ServerMon/chkServers/summary/chkServersBasic_20220128-104001
+

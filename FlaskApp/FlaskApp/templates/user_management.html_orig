@@ -1,0 +1,115 @@
+{% extends 'inv_landing.html' %}
+
+{% block body %}
+<script src="/static/js/custom.js"></script>
+<style media="screen">
+
+/* Full-width input fields */
+input[type=text], input[type=password],select{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+#btn {
+
+   color: white;
+   padding: 16px 20px;
+   margin: 8px 0;
+   border: none;
+   cursor: pointer;
+   width: 13%;
+   opacity: 0.9;
+   background: linear-gradient(#0f384e,#afbec5);
+   margin-left: 40%;
+   border-radius: 10px;
+}
+
+.radio, .checkbox{
+margin-left:45%;
+}
+</style>
+       <div>
+        {% if msg %}
+         <script>
+           var flash="{{msg|safe}}";
+           alert (flash);
+         </script>
+       {% endif %}
+        </div> 
+      
+		
+		
+		 <div class="ibox">
+                            <div class="ibox-head">
+                                <div class="ibox-title">User Management</div>
+                            </div>
+                            <div class="ibox-body">
+                                <ul class="nav nav-tabs">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="#tab-1-1" data-toggle="tab"><i class="fa fa-user-plus"></i> ADD USER</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#tab-1-2" data-toggle="tab"><i class="fa fa-user-times"></i> REMOVE USER/ REVOKE ADMIN</a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div class="tab-pane fade show active" id="tab-1-1">
+									<form id="login-form" action="" method="POST" role="form" style="display: block;" onSubmit="return validateEmailfunction()">
+									 <hr>
+									 <label><b>Enter User Email</b></label>
+                                      <input type="text" id="user_email" onkeyup="this.value=this.value.toLowerCase()" placeholder="Enter Email" class="emailvalidate"  name="user_email" value="{{request.form.user_email}}"  >
+									  <div class="checkbox">
+                                      <label><input type="checkbox" name="isadmin" value="Y"> ADMIN</label>
+                                      </div>
+									   <hr>
+                                      <button id="addbtn" type="submit" name="submit" value="add_user" >UPDATE</button> 
+									  </form>
+									</div>
+									
+                                    <div class="tab-pane" id="tab-1-2">
+									<form id="login-form1" action="" method="POST" role="form" onSubmit="return fun()" style="display: block;">
+									 <hr>
+									<div>
+								    <label><b>Select User Email:</b></label>	
+									<select id="ddlList1" >
+                                    <option value="" disabled selected>Select Email</option>
+                                    {% for each_tuple in user_list %}
+                                        {% for each_user in each_tuple %}
+                                            <option value={{each_user}}>{{each_user}}</option>
+                                         {% endfor %}
+                                    {% endfor %}
+                                    
+                                     </select></div>
+	 
+									 <div class="radio" >
+								<label><input type="radio" name="optradio" > Revoke Admin Access</label><br>
+                                <label><input type="radio" name="optradio" checked> Remove User</label>
+								</div>
+
+  
+									 <hr>
+                                      <button id="removebtn" type="submit" name ="submit" value="remove_user" >UPDATE</button> 
+									  </form>
+									  </div>
+									  
+									
+                                </div><br></div>
+                        </div>
+              </div>
+            
+
+{% endblock %}

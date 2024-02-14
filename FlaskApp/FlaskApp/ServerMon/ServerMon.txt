@@ -1,0 +1,1573 @@
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 660)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221002-202001', 'emdbaError: mount issue exists: slc11rpl.us.oracle.com\n', 3)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 662)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221004-204001', 'emdbaError: Login error: slc11fdo.us.oracle.com slc11rpm.us.oracle.com slcaa690.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 662)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221004-204001', 'emdbaError: Login error: slc11fdo.us.oracle.com slc11rpm.us.oracle.com slcaa690.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 662)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221004-204001', 'emdbaError: Login error: slc11fdo.us.oracle.com slc11rpm.us.oracle.com slcaa690.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 662)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221004-204001', 'emdbaError: Login error: slc11fdo.us.oracle.com slc11rpm.us.oracle.com slcaa690.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 665)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221009-024001', 'emdbaError: mount issue exists: slc11rpl.us.oracle.com\n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 666)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221009-202001', 'emdbaError: Login error: slc11fdo.us.oracle.com slc11mxq.us.oracle.com slc11quh.us.oracle.com slc11rpm.us.oracle.com slcaa691.us.oracle.com slcaa694.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 666)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221009-202001', 'emdbaError: Login error: slc11fdo.us.oracle.com slc11mxq.us.oracle.com slc11quh.us.oracle.com slc11rpm.us.oracle.com slcaa691.us.oracle.com slcaa694.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 670)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221016-210001', 'emdbaError: Login error: slc11qun.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 671)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221017-092001', 'emdbaError: Login error: slcaa692.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 671)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221017-092001', 'emdbaError: Login error: slcaa692.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 673)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221018-032001', 'emdbaError: Login error: slc11qun.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 673)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221018-032001', 'emdbaError: Login error: slc11qun.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 680)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221025-084001', 'emdbaError: Login error: slc11fdo.us.oracle.com slc11qup.us.oracle.com slcaa692.us.oracle.com slcaa694.us.oracle.com slcaa697.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 680)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221025-084001', 'emdbaError: Login error: slc11fdo.us.oracle.com slc11qup.us.oracle.com slcaa692.us.oracle.com slcaa694.us.oracle.com slcaa697.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 680)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221025-084001', 'emdbaError: Login error: slc11fdo.us.oracle.com slc11qup.us.oracle.com slcaa692.us.oracle.com slcaa694.us.oracle.com slcaa697.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 681)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221027-090001', 'emdbaError: Login error: slc11qug.us.oracle.com slc11qun.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 685)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221030-202001', 'emdbaError: Login error: slc11fdo.us.oracle.com slc11mxq.us.oracle.com slc11rpm.us.oracle.com slcaa690.us.oracle.com slcaa697.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 685)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221030-202001', 'emdbaError: Login error: slc11fdo.us.oracle.com slc11mxq.us.oracle.com slc11rpm.us.oracle.com slcaa690.us.oracle.com slcaa697.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 685)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221030-202001', 'emdbaError: Login error: slc11fdo.us.oracle.com slc11mxq.us.oracle.com slc11rpm.us.oracle.com slcaa690.us.oracle.com slcaa697.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 685)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221030-202001', 'emdbaError: Login error: slc11fdo.us.oracle.com slc11mxq.us.oracle.com slc11rpm.us.oracle.com slcaa690.us.oracle.com slcaa697.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 687)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221102-154001', 'emdbaError: mount issue exists: slc11rpl.us.oracle.com\n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 687)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221102-154001', 'emdbaError: mount issue exists: slc11rpl.us.oracle.com\n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 688)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221105-210001', 'emdbaError: mount issue exists: slc11qul.us.oracle.com\n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 688)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221105-210001', 'emdbaError: mount issue exists: slc11qul.us.oracle.com\n', 1)
+20221107-194002
+emdbaError: Login error: slc09jzw.us.oracle.com slc11mxq.us.oracle.com slc11rpm.us.oracle.com slcaa697.us.oracle.com 
+
+20221107-200001
+emdbaError: Login error: slc11fdq.us.oracle.com slcaa691.us.oracle.com slcaa692.us.oracle.com 
+
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 693)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221109-080001', 'emdbaError: mount issue exists: slc11qug.us.oracle.com\nemdbaError: mount issue exists: slc11rpl.us.oracle.com\n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 696)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221111-024001', 'emdbaError: Login error: slc11qug.us.oracle.com slc11qul.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 696)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221111-024001', 'emdbaError: Login error: slc11qug.us.oracle.com slc11qul.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 696)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221111-024001', 'emdbaError: Login error: slc11qug.us.oracle.com slc11qul.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 704)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221115-200001', 'emdbaError: Login error: slc11qup.us.oracle.com slc11rpm.us.oracle.com slcaa691.us.oracle.com \n', 1)
+ The file has been copied 
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 704)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221115-200001', 'emdbaError: Login error: slc11qup.us.oracle.com slc11rpm.us.oracle.com slcaa691.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 704)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221115-200001', 'emdbaError: Login error: slc11qup.us.oracle.com slc11rpm.us.oracle.com slcaa691.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 704)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221115-200001', 'emdbaError: Login error: slc11qup.us.oracle.com slc11rpm.us.oracle.com slcaa691.us.oracle.com \n', 1)
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+ The file has been copied 
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 704)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221115-200001', 'emdbaError: Login error: slc11qup.us.oracle.com slc11rpm.us.oracle.com slcaa691.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 704)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221115-200001', 'emdbaError: Login error: slc11qup.us.oracle.com slc11rpm.us.oracle.com slcaa691.us.oracle.com \n', 1)
+20220128-102001
+emdbaError: chkMounts has issue and needs review: slc09mjw.us.oracle.com
+
+20220128-104001
+emdbaError: chkMounts has issue and needs review: slc09mjw.us.oracle.com
+
+('There is a problem with Oracle', IntegrityError(<cx_Oracle._Error object at 0x7f5a70b79810>,))
+ The file has been copied 
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 705)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221115-200001', 'emdbaError: Login error: slc11qup.us.oracle.com slc11rpm.us.oracle.com slcaa691.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 706)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221116-140003', 'emdbaError: Login error: slc11qul.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 706)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221116-140003', 'emdbaError: Login error: slc11qul.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 715)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221120-020001', 'emdbaError: mount issue exists: slc11rpl.us.oracle.com\n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 717)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221120-080001', 'emdbaError: mount issue exists: slc11rpl.us.oracle.com\n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 721)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221122-150001', 'emdbaError: mount issue exists: slc11rpl.us.oracle.com\n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 722)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221123-150002', 'emdbaError: Login error: slc11fdu.us.oracle.com slc11qup.us.oracle.com slc11rpl.us.oracle.com slc11rpm.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 723)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221124-080002', 'emdbaError: Login error: slc11fdt.us.oracle.com slc11qun.us.oracle.com slcaa690.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 724)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221125-154002', 'emdbaError: Login error: slc04klp.us.oracle.com slc11fdu.us.oracle.com slc11qup.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 725)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221128-074002', 'emdbaError: Login error: slc07kzp.us.oracle.com slc09jzw.us.oracle.com slc11fdr.us.oracle.com slc11fdu.us.oracle.com slc11qug.us.oracle.com slc11rpl.us.oracle.com slc11rpm.us.oracle.com slcaa690.us.oracle.com slcaa697.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 725)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221128-074002', 'emdbaError: Login error: slc07kzp.us.oracle.com slc09jzw.us.oracle.com slc11fdr.us.oracle.com slc11fdu.us.oracle.com slc11qug.us.oracle.com slc11rpl.us.oracle.com slc11rpm.us.oracle.com slcaa690.us.oracle.com slcaa697.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 725)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221128-074002', 'emdbaError: Login error: slc07kzp.us.oracle.com slc09jzw.us.oracle.com slc11fdr.us.oracle.com slc11fdu.us.oracle.com slc11qug.us.oracle.com slc11rpl.us.oracle.com slc11rpm.us.oracle.com slcaa690.us.oracle.com slcaa697.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 726)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221129-074001', 'emdbaError: Login error: slcaa694.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 726)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221129-074001', 'emdbaError: Login error: slcaa694.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 729)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221201-020006', 'emdbaError: Login error: slc07kzp.us.oracle.com slc11fdt.us.oracle.com slc11fdu.us.oracle.com slc11mxq.us.oracle.com slc11qul.us.oracle.com slcaa690.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 738)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221204-181001', 'emdbaError: /tmp is not writable: slc04wtv.us.oracle.com\nemdbaError: /tmp is not writable: slc04wtw.us.oracle.com\nemdbaError: slc04wtv.us.oracle.com: emrefrdb: Status: LSNR:Down->Down EMREF:Up \nemdbaError: Login error: slc04wtu.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 740)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221206-202001', 'emdbaError: mount issue exists: slc11rpl.us.oracle.com\n', 3)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 740)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221206-202001', 'emdbaError: mount issue exists: slc11rpl.us.oracle.com\n', 3)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 740)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221206-202001', 'emdbaError: mount issue exists: slc11rpl.us.oracle.com\n', 3)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 750)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221210-100001', 'emdbaError: mount issue exists: slc11rpl.us.oracle.com\n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 753)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221218-144001', 'emdbaError: mount issue exists: slc11quh.us.oracle.com\nemdbaError: mount issue exists: slc11rpl.us.oracle.com\n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 753)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221218-144001', 'emdbaError: mount issue exists: slc11quh.us.oracle.com\nemdbaError: mount issue exists: slc11rpl.us.oracle.com\n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 753)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221218-144001', 'emdbaError: mount issue exists: slc11quh.us.oracle.com\nemdbaError: mount issue exists: slc11rpl.us.oracle.com\n', 1)
+ The file has been copied 
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 753)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221218-144001', 'emdbaError: mount issue exists: slc11quh.us.oracle.com\nemdbaError: mount issue exists: slc11rpl.us.oracle.com\n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 753)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221218-144001', 'emdbaError: mount issue exists: slc11quh.us.oracle.com\nemdbaError: mount issue exists: slc11rpl.us.oracle.com\n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 753)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221218-144001', 'emdbaError: mount issue exists: slc11quh.us.oracle.com\nemdbaError: mount issue exists: slc11rpl.us.oracle.com\n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 753)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221218-144001', 'emdbaError: mount issue exists: slc11quh.us.oracle.com\nemdbaError: mount issue exists: slc11rpl.us.oracle.com\n', 1)
+ The file has been copied 
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 753)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221218-144001', 'emdbaError: mount issue exists: slc11quh.us.oracle.com\nemdbaError: mount issue exists: slc11rpl.us.oracle.com\n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 757)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221223-090001', 'emdbaError: mount issue exists: slc11rpl.us.oracle.com\n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 758)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221224-090001', 'emdbaError: Login error: slc04klp.us.oracle.com slc07kzp.us.oracle.com slc09jzw.us.oracle.com slc11fdo.us.oracle.com slc11fdq.us.oracle.com slc11mxq.us.oracle.com slc11qug.us.oracle.com slc11quh.us.oracle.com slc11qun.us.oracle.com slc11qup.us.oracle.com slc11rpi.us.oracle.com slc11rpl.us.oracle.com slc11rpm.us.oracle.com slcaa690.us.oracle.com slcaa691.us.oracle.com slcaa692.us.oracle.com slcaa694.us.oracle.com slcaa697.us.oracle.com \n', 1)
+20221225-140001
+emdbaError: mount issue exists: slc11rpl.us.oracle.com
+
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 761)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221227-140001', 'emdbaError: Login error: slc11qup.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 763)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221228-202001', 'emdbaError: Login error: slc11qun.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 764)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221229-142002', 'emdbaError: Login error: slc04klp.us.oracle.com slc09jzw.us.oracle.com slc11fdo.us.oracle.com slc11fdt.us.oracle.com slc11fdu.us.oracle.com slc11qug.us.oracle.com \n', 2)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 764)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20221229-142002', 'emdbaError: Login error: slc04klp.us.oracle.com slc09jzw.us.oracle.com slc11fdo.us.oracle.com slc11fdt.us.oracle.com slc11fdu.us.oracle.com slc11qug.us.oracle.com \n', 2)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 765)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230102-220001', 'emdbaError: mount issue exists: slc11fdq.us.oracle.com\n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 767)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230104-144001', 'emdbaError: Login error: slc11fdo.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 767)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230104-144001', 'emdbaError: Login error: slc11fdo.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 767)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230107-031529', 'emdbaError: Login error: slc11fdo.us.oracle.com \n', 7)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 768)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230108-134001', 'emdbaError: Login error: slc11quj.us.oracle.com \n', 1)
+rs/summary/chkS
+
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 772)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230108-134001', 'emdbaError: Login error: slc11quj.us.oracle.com \n', 1)
+20230108-194001
+emdbaError: Login error: slc11quj.us.oracle.com 
+
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 768)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230108-194001', 'emdbaError: Login error: slc11quj.us.oracle.com \n', 2)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 772)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230110-194001', 'emdbaError: mount issue exists: slc11vvo.us.oracle.com\nemdbaError: Login error: slcaa697.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 775)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230111-104001', 'emdbaError: mount issue exists: slc11fdo.us.oracle.com\n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 780)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230113-084002', 'emdbaError: Login error: slc11fdo.us.oracle.com slc11fdq.us.oracle.com slc11mxq.us.oracle.com slc11qug.us.oracle.com slc11quh.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 780)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230113-084002', 'emdbaError: Login error: slc11fdo.us.oracle.com slc11fdq.us.oracle.com slc11mxq.us.oracle.com slc11qug.us.oracle.com slc11quh.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 780)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230113-084002', 'emdbaError: Login error: slc11fdo.us.oracle.com slc11fdq.us.oracle.com slc11mxq.us.oracle.com slc11qug.us.oracle.com slc11quh.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 782)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230119-020001', 'emdbaError: Login error: slc11rpi.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 792)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230122-190001', 'emdbaError: Login error: slc11que.us.oracle.com slc11quf.us.oracle.com slc11qug.us.oracle.com slc11rpi.us.oracle.com slc11rpj.us.oracle.com slc11rpk.us.oracle.com slc11rpl.us.oracle.com slc11rpm.us.oracle.com slc11rpn.us.oracle.com slc11slu.us.oracle.com \n', 140)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 792)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230122-190001', 'emdbaError: Login error: slc11que.us.oracle.com slc11quf.us.oracle.com slc11qug.us.oracle.com slc11rpi.us.oracle.com slc11rpj.us.oracle.com slc11rpk.us.oracle.com slc11rpl.us.oracle.com slc11rpm.us.oracle.com slc11rpn.us.oracle.com slc11slu.us.oracle.com \n', 140)
+rs/summary/chkS
+
+('There is a problem with Oracle', IntegrityError(<cx_Oracle._Error object at 0x7fdbabbb8b58>,))
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 797)
+('cur.rowcount2 ', 1L)
+('The  row has  ', 'rs/summary/chkS', None, -1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 794)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230123-194001', 'emdbaError: Login error: slc04klp.us.oracle.com slc11fdo.us.oracle.com slc11fdq.us.oracle.com slcaa691.us.oracle.com slcaa694.us.oracle.com \n', 1)
+rs/summary/chkS
+
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 799)
+('cur.rowcount2 ', 1L)
+('The  row has  ', 'rs/summary/chkS', None, 1)
+('There is a problem with Oracle', IntegrityError(<cx_Oracle._Error object at 0x7f0da2a8ad88>,))
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 799)
+('cur.rowcount2 ', 1L)
+('The  row has  ', 'rs/summary/chkS', None, 1)
+('There is a problem with Oracle', IntegrityError(<cx_Oracle._Error object at 0x7fcd7a292d88>,))
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 799)
+('cur.rowcount2 ', 1L)
+('The  row has  ', 'rs/summary/chkS', None, 1)
+('There is a problem with Oracle', IntegrityError(<cx_Oracle._Error object at 0x7f41b6d3cd88>,))
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 799)
+('cur.rowcount2 ', 1L)
+('The  row has  ', 'rs/summary/chkS', None, 1)
+('There is a problem with Oracle', IntegrityError(<cx_Oracle._Error object at 0x7f3735820d88>,))
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 799)
+('cur.rowcount2 ', 1L)
+('The  row has  ', 'rs/summary/chkS', None, 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 795)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230124-014001', 'emdbaError: Login error: slc04klp.us.oracle.com slc11fdo.us.oracle.com slc11fdq.us.oracle.com slcaa691.us.oracle.com slcaa694.us.oracle.com slcaa697.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 796)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230126-080001', 'emdbaError: Login error: slc11quh.us.oracle.com slcaa690.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 797)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230128-142001', 'emdbaError: Login error: slc11fdr.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 797)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230128-142001', 'emdbaError: Login error: slc11fdr.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 797)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230128-142001', 'emdbaError: Login error: slc11fdr.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 799)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230131-134001', 'emdbaError: Login error: slcaa692.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 800)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230201-020002', 'emdbaError: Login error: slc07kzp.us.oracle.com slc11fdq.us.oracle.com slc11fdu.us.oracle.com slc11mxq.us.oracle.com slc11quj.us.oracle.com slc11qun.us.oracle.com slc11qup.us.oracle.com slcaa690.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 800)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230201-020002', 'emdbaError: Login error: slc07kzp.us.oracle.com slc11fdq.us.oracle.com slc11fdu.us.oracle.com slc11mxq.us.oracle.com slc11quj.us.oracle.com slc11qun.us.oracle.com slc11qup.us.oracle.com slcaa690.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 800)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230201-020002', 'emdbaError: Login error: slc07kzp.us.oracle.com slc11fdq.us.oracle.com slc11fdu.us.oracle.com slc11mxq.us.oracle.com slc11quj.us.oracle.com slc11qun.us.oracle.com slc11qup.us.oracle.com slcaa690.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 802)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230202-064001', 'emdbaError: mount issue exists: slcaa690.us.oracle.com\n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 805)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230204-022001', 'emdbaError: ES access error: slc07ylt.us.oracle.com slc10wul.us.oracle.com \n', 7)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 808)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230204-062001', 'emdbaError: ES access error: slc10wul.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 808)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230204-062001', 'emdbaError: ES access error: slc10wul.us.oracle.com \n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 809)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230204-160001', 'emdbaError: Login error: slc04klp.us.oracle.com \n', 2)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 809)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230204-160001', 'emdbaError: Login error: slc04klp.us.oracle.com \n', 2)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 809)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230204-160001', 'emdbaError: Login error: slc04klp.us.oracle.com \n', 2)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 811)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230207-200001', 'emdbaError: Login error: slc11fdu.us.oracle.com \n', 2)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 813)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230208-034001', 'emdbaError: mount issue exists: slcaa694.us.oracle.com\n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 816)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230209-130001', 'emdbaError: mount issue exists: slc11fdo.us.oracle.com\n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 816)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230209-130001', 'emdbaError: mount issue exists: slc11fdo.us.oracle.com\n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 824)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230214-180001', 'emdbaError: mount issue exists: slcaa697.us.oracle.com\n', 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 830)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230216-052001', 'emdbaError: mount issue exists: slc11mxp.us.oracle.com\nemdbaError: mount issue exists: slc11she.us.oracle.com\n', 42)
+rs/summary/chkS
+
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 835)
+('cur.rowcount2 ', 1L)
+('The  row has  ', 'rs/summary/chkS', None, 1)
+('There is a problem with Oracle', IntegrityError(<cx_Oracle._Error object at 0x7fc66aa965a8>,))
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 830)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230217-012001', 'emdbaError: mount issue exists: slc11mxp.us.oracle.com\nemdbaError: mount issue exists: slc11she.us.oracle.com\n', 96)
+rs/summary/chkS
+
+('There is a problem with Oracle', IntegrityError(<cx_Oracle._Error object at 0x7f8f361be3e8>,))
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 835)
+('cur.rowcount2 ', 1L)
+('The  row has  ', 'rs/summary/chkS', None, -1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 830)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230218-212002', 'emdbaError: mount issue exists: slc11mxp.us.oracle.com\nemdbaError: mount issue exists: slc11she.us.oracle.com\n', 210)
+rs/summary/chkS
+
+('There is a problem with Oracle', IntegrityError(<cx_Oracle._Error object at 0x7f35cef913e8>,))
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 831)
+('cur.rowcount2 ', 1L)
+('The  row has  ', 'rs/summary/chkS', None, -1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 829)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230218-222241', 'emdbaError: mount issue exists: slc11mxp.us.oracle.com\nemdbaError: mount issue exists: slc11she.us.oracle.com\n', 214)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 829)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230218-222241', 'emdbaError: mount issue exists: slc11mxp.us.oracle.com\nemdbaError: mount issue exists: slc11she.us.oracle.com\n', 214)
+rs/summary/chkS
+
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 834)
+('cur.rowcount2 ', 1L)
+('The  row has  ', 'rs/summary/chkS', None, 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 830)
+('cur.rowcount2 ', 1L)
+('The  row has  ', 'rs/summary/chkS', None, 1)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 827)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230220-181001', 'emdbaError: mount issue exists: slc11mxp.us.oracle.com\nemdbaError: mount issue exists: slc11she.us.oracle.com\n', 216)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 827)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230220-181001', 'emdbaError: mount issue exists: slc11mxp.us.oracle.com\nemdbaError: mount issue exists: slc11she.us.oracle.com\n', 216)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 827)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230220-181001', 'emdbaError: mount issue exists: slc11mxp.us.oracle.com\nemdbaError: mount issue exists: slc11she.us.oracle.com\n', 216)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 827)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230220-181001', 'emdbaError: mount issue exists: slc11mxp.us.oracle.com\nemdbaError: mount issue exists: slc11she.us.oracle.com\n', 216)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 827)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230220-181001', 'emdbaError: mount issue exists: slc11mxp.us.oracle.com\nemdbaError: mount issue exists: slc11she.us.oracle.com\n', 216)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 827)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230220-181001', 'emdbaError: mount issue exists: slc11mxp.us.oracle.com\nemdbaError: mount issue exists: slc11she.us.oracle.com\n', 216)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 827)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230220-181001', 'emdbaError: mount issue exists: slc11mxp.us.oracle.com\nemdbaError: mount issue exists: slc11she.us.oracle.com\n', 216)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 827)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230220-181001', 'emdbaError: mount issue exists: slc11mxp.us.oracle.com\nemdbaError: mount issue exists: slc11she.us.oracle.com\n', 216)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 827)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230220-181001', 'emdbaError: mount issue exists: slc11mxp.us.oracle.com\nemdbaError: mount issue exists: slc11she.us.oracle.com\n', 216)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 827)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230220-181001', 'emdbaError: mount issue exists: slc11mxp.us.oracle.com\nemdbaError: mount issue exists: slc11she.us.oracle.com\n', 216)
+ The file has been copied 
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 827)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230220-181001', 'emdbaError: mount issue exists: slc11mxp.us.oracle.com\nemdbaError: mount issue exists: slc11she.us.oracle.com\n', 216)
+ The file has been copied 

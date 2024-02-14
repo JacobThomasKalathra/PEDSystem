@@ -1,0 +1,240 @@
+{% extends 'inv_landing.html' %}
+
+{% block body %}
+<link rel="stylesheet" href="/static/css/loader.css">
+
+<div id="loader">
+
+
+</div>
+<div class="ibox border" id="content">
+                    <div class="ibox-head">
+                        <div class="ibox-title">Server Monitoring</div>
+               {% set mstat = session['mStatus'] %}
+                           
+	        {% set merror = session['merr'] %}
+
+                   </div>
+              				<div>
+                                        
+                              </div>
+                      <br> 
+			      <div class="form-group">
+                   {% if  mstat == 1  and merror == 0 %}
+
+                                      <div class="ibox">
+                                          <div class="ibox-head" style=" background: #a7e392; padding: 5px; color: #000000;">
+                                           <div class="ibox-title" ><h4>Latest Status : {{session['status']}}</h4>
+										 </div>
+										   <div><h4> Monitored On : <i> {{session['mtime']}}{{session['emdba_tz']}}</i></h4></div>
+                                                  </div>
+     
+		 {% elif mstat == 2 or mstat ==3 and (merror > 0 and merror < 4)  %}
+                                       <div class="ibox">
+                                          <div class="ibox-head" style=" background: #fff157; padding: 5px; color: #000000;">
+                                           <div class="ibox-title" ><h4>Latest Status : {{session['status']}}</h4>
+										 </div>
+										   <div><h4> Monitored On : <i> {{session['mtime']}}{{session['emdba_tz']}}</i></h4></div>
+                                                  </div>
+                 {% elif mstat == 3 and merror >=4  %}
+                                         <div class="ibox">
+                                          <div class="ibox-head" style=" background: #ff160c; padding: 5px; color: #000000;">
+                                           <div class="ibox-title" ><h4>Latest Status : {{session['status']}}</h4>
+										 </div>
+										   <div><h4> Monitored On : <i> {{session['mtime']}}{{session['emdba_tz']}}</i></h4></div>
+                                                  </div>     
+     
+		{% else %}
+                                        <div class="ibox">
+                                          <div class="ibox-head" style=" background: #ffffff; padding: 5px; color: #000000;">
+                                           <div class="ibox-title" ><h4>Latest Status : {{session['status']}}</h4>
+										 </div>
+										   <div><h4> <i> No Logs available ==>> Issue with Generation</i></h4></div>
+                                                  </div>
+
+                                         
+                {% endif %}
+
+                                        
+                                        
+                                        <div>
+                                        <p> </p>
+                                        <div class="accordion">
+                                 	<div>
+                                                    <input type="checkbox" name="example_accordion" id="section1"
+                                                        class="accordion__input">
+                                                    <label for="section1" class="accordion__label">
+                                                        <span style="background: #a7e392; font-weight:bolder; color: #000000;"><h4>Current Log :
+                                                            {{session['mNameofFile']}} </h4> </span>
+                                                    </label>
+                                                    <div class="accordion__content">
+
+							<textarea id='ta' rows="30" cols="600">
+							    {{session['mval_list']}}
+							</textarea>
+                                                    </div>
+                                             
+                                        </div>
+                                       </div>
+ 		<p style ="border-bottom: 2px solid lightgray;padding-top: 15px ; border-radius: 2px;"></p>
+
+
+                        <div class="ibox-title" style="font-size:20px;padding-top: 5px;font-weight:600;">Past Errors</div>
+
+
+
+
+   <div class="ibox-body">
+    <table data-order='[[ 0, "desc" ]]' data-page-length='20' id="example" class="table table-striped table-bordered " style="width:100%; cellspacing:0 ">
+     <!---table class="table table-bordered" id="dataTable" width="100%" cellspacing="0" data-order='[[ 0, "desc" ]]' data-page-length='20'--->
+          <thead>
+	<tr style="background:linear-gradient(#3c5a7b,#959da8);color:white;">
+	    
+
+            <th style ="padding: 5px; text-align: center">Error Date</th>
+             <th style ="padding: 5px; text-align: center">Error Count</th>
+	    <th style ="padding: 5px; text-align: center">Log Content </th>
+        
+      	</tr>
+    </thead> 
+    
+	  <tbody>
+         {% set cnt = 1%}
+              {% for each_tuple in  od  %}
+       	<tr>
+       		{% for each_col in each_tuple %}
+                          {% if (loop.index == 2) and (each_col   > 0)  %}
+                            <td>  {{ each_col }} </td>
+                          {% elif (loop.index == 1)   %}
+                          <td  style ="background-color: Grey; color:white; width:80px; text-align: left " >  {{ each_col }} </td> 
+                          {% elif (loop.index == 3)   %}
+                          <td>  <textarea readonly html= true name="comment" rows="2" cols="160"  style ="border: 0 none #FFF;">{{ each_col }}</textarea><br> </td>
+
+                          {% else %}
+       
+                            <td>{{ each_col }} </td>
+                         {% endif %} 
+                       {% endfor %}
+                </tr>
+       	{% endfor %}
+        
+        
+    	    </tbody>
+        </table>
+		</div>
+		</div>
+<script type="text/javascript">
+  $(document).ready(function() {
+  var dataTable = $('#example').dataTable({
+  "scrollX": true,
+    dom: 'Bfrtip',
+    buttons: [
+              'copy', 	  {
+                extend: 'excelHtml5',
+                title: null,
+                autoFilter: true,
+                filename: 'Server_Info_{{session['report_time']}}',
+                customize: function( xlsx ) {
+                    var sheet = xlsx.xl.worksheets['sheet1.xml'];
+                    $('row c', sheet).attr( 's', '50' );
+                }
+            },
+
+			{
+                extend: 'pdfHtml5',
+                title: null,
+                filename: 'Server_Info_{{session['report_time']}}',
+                pageSize: 'A1',
+            }
+          ],
+          initComplete: function () {
+    $('.dataTables_filter input[type="search"]').css({ 'width': '350px', 'height':'50px','display': 'inline-block','border-radius':'10px'});
+    <!-- $('.dataTables_filter label').css({ 'color': 'white'}); -->
+  }
+  });
+          var input = $(".dataTables_filter input");
+          input.unbind('keyup search input').bind('keyup',
+          function(e) {
+            if (input.val().length > 0) {
+              var keywords = input.val().trim().split(','), filter = '';
+              for (var i = 0; i < keywords.length; i++) {
+                filter = (filter !== '') ? filter + '|' + keywords[i] : keywords[i];
+              }
+              dataTable.fnFilter(filter, null, true, false, true, true);
+        //                                ^ Treat as regular expression or not
+      } else if (input.val().length == 0) {
+          dataTable.fnFilter(" ", null, true, false, true, true);
+        }
+
+});
+});
+</script>
+<script src="/static/css/loader.js"></script>
+<style media="screen">
+   table, th,tr, td {
+  border: 1px solid black;
+}
+    .accordion {
+        max-width: 100%;
+        box-shadow: 0 0 0px rgba(204, 255, 0, 0.6);
+        border-radius: 0.5px;
+        border-style:none;
+        overflow: hidden;
+        font-family: "Quicksand", sans-serif;
+        background: #a7e392;
+
+    }
+
+    .accordion__label,
+    .accordion__content {
+        
+        padding: 2px ;
+        padding-top: 10px;
+    }
+
+    .accordion__label {
+        display: block;
+        color: #000000;
+        font-weight: 800;
+        cursor: pointer;
+        position: relative;
+        transition: background 0.2s;
+    }
+
+    .accordion__label:hover {
+        background: rgba(0, 0, 0, 0.0);
+    }
+
+    .accordion__label::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 20px;
+        width: 12px;
+        height: 6px;
+        background-image: url('data:image/svg+xml;utf8,<svg width="100" height="50" xmlns="http://www.w3.org/2000/svg"><polygon points="0,0 100,0 50,50" style="fill:%2300000099;" /></svg>');
+        background-size: contain;
+        transition: transform 0.2s;
+    }
+
+    .accordion__content {
+        background: #ffffff;
+        line-height: 0.75;
+        font-size: 1.05em;
+        display: none;
+    }
+
+    .accordion__input {
+        display: none;
+    }
+
+    .accordion__input:checked~.accordion__content {
+        display: block;
+    }
+
+    .accordion__input:checked~.accordion__label::after {
+        transform: translateY(-50%) rotate(0.5turn);
+    }
+</style>
+{% endblock %}

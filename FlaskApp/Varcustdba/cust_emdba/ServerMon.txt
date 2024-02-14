@@ -1,0 +1,90 @@
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 827)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230220-181001', 'emdbaError: mount issue exists: slc11mxp.us.oracle.com\nemdbaError: mount issue exists: slc11she.us.oracle.com\n', 216)
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 827)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230220-181001', 'emdbaError: mount issue exists: slc11mxp.us.oracle.com\nemdbaError: mount issue exists: slc11she.us.oracle.com\n', 216)
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 827)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230220-181001', 'emdbaError: mount issue exists: slc11mxp.us.oracle.com\nemdbaError: mount issue exists: slc11she.us.oracle.com\n', 216)
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 827)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230220-181001', 'emdbaError: mount issue exists: slc11mxp.us.oracle.com\nemdbaError: mount issue exists: slc11she.us.oracle.com\n', 216)
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 827)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230220-181001', 'emdbaError: mount issue exists: slc11mxp.us.oracle.com\nemdbaError: mount issue exists: slc11she.us.oracle.com\n', 216)
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 827)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230220-181001', 'emdbaError: mount issue exists: slc11mxp.us.oracle.com\nemdbaError: mount issue exists: slc11she.us.oracle.com\n', 216)
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 827)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230220-181001', 'emdbaError: mount issue exists: slc11mxp.us.oracle.com\nemdbaError: mount issue exists: slc11she.us.oracle.com\n', 216)
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 827)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230220-181001', 'emdbaError: mount issue exists: slc11mxp.us.oracle.com\nemdbaError: mount issue exists: slc11she.us.oracle.com\n', 216)
+Emdba remote server  slc11vqa.us.oracle.com
+Emdba server username  ora6788
+Emdba server Password  ORA6788
+Remote server directory  /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+Local tmp directory   /tmp/emdba_tmp
+Log file path /tmp/emdba.log
+Remote server directory adding / : /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/chkServers
+('cur.rowcount1 ', 827)
+('cur.rowcount2 ', 1L)
+('The  row has  ', '20230220-181001', 'emdbaError: mount issue exists: slc11mxp.us.oracle.com\nemdbaError: mount issue exists: slc11she.us.oracle.com\n', 216)

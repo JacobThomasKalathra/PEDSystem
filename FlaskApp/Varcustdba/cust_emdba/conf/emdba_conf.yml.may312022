@@ -1,0 +1,22 @@
+database_details:
+  host: slc10ger.us.oracle.com
+  password: invdev
+  port: '1521'
+  sid: CADEVDB
+  username: invdev
+emdba_details:
+  host: slcaa690.us.oracle.com
+  log_path: /tmp/emdba.log
+  password: ORA7918
+  remote_dir: /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/reports
+  time_zone: PDT
+  tmp_dir: /tmp/emdba_tmp
+  username: ora7918
+summaryRep_details:
+  host: slcaa690.us.oracle.com
+  log_path: /tmp/summaryReport.log
+  password: ORA7918
+  remote_dir: /apps_autofs/recovery/ENTERPRISE/opsdba/emdba/sharedLogs/pedData
+  time_zone: PDT
+  tmp_dir: /tmp/summaryReport_tmp
+  username: ora7918

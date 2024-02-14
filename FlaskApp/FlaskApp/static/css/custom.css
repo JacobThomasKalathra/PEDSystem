@@ -1,0 +1,12 @@
+.btn{
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+  opacity: 0.9;
+  background: linear-gradient(#0f384e,#afbec5);
+  margin-left: 45%;
+  border-radius: 10px;
+}

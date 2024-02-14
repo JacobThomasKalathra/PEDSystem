@@ -1,0 +1,268 @@
+{% extends 'inv_landing.html' %}
+
+{% block body %}
+
+
+<script src="/static/js/chart.js"></script>
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+ <!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"-->
+
+<style media="screen">
+  table {
+    table-layout: fixed ;
+    width: 100% ;
+	margin-top:20px;
+  }
+  td {
+    width: 25% ;
+  }
+
+</style>
+<div class="ibox border" >
+                    <div class="ibox-head">
+                        <div class="ibox-title"><b>Statistics</b></div>
+						
+                    </div>
+                    <div class="ibox-body">
+
+                      <table id="example" class="table table-bordered" >
+                              <thead>
+                                  <tr style="background:linear-gradient(#3c5a7b,#959da8);color:white;">
+                                      <th>DB Inventory</th>
+                                      <th>DB Versions and Count</th>
+
+                                  </tr>
+                              </thead>
+                              <tbody>
+
+                                  <tr>
+                                      <td>
+                                        <div class="ibox">
+                                            <div class="ibox-head">
+                                             <div class="ibox-title">DB Distribution</div>
+                                           </div>
+                                           <div class="ibox-body"> 
+                                                 <div> BarChart Values  &nbsp;&nbsp;&nbsp; <i>  {{session['mApps-detail']}} &nbsp;&nbsp;&nbsp;</i></div>
+                                                   <canvas id="myChart"></canvas>
+                                          </div>
+					
+                  			<div class="ibox-head">
+                                              
+
+                                             <div class="ibox-title">DB Type Distribution</div>
+                                             
+                                             
+					</div>
+					<div class="ibox-body">  <div> DbType  &nbsp;&nbsp;&nbsp; <i>  {{session['db_type-detail']}} &nbsp;&nbsp;&nbsp;</i></div>
+					      <!---div id="doughnutChart" style="display: block;height:243px;width:100%;"></div--->
+
+                                               <!--canvas id="doughnutChart"></canvas-->
+                                               <div id="container2" style="display: block;height:443px;width:100%;"></div>
+
+                                          </div>
+
+
+                                        </div>
+
+                                      </td>
+
+					
+
+
+                                      <td>
+
+                                
+                                      <div class="ibox">
+                                          <div class="ibox-head">
+                                           <div class="ibox-title"><h4>DB Versions</h4>
+										 </div>
+										   <div>As On <i> {{session['report_time']}} {{session['emdba_tz']}}</i></div>
+                                         </div>
+                                         <div class="ibox-body">
+										 
+				 <ul class="nav nav-tabs">
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#tab-1-1" data-toggle="tab"> Graph</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="#tab-1-2" data-toggle="tab">Table</a>
+                                    </li>
+								
+                                </ul>
+                                <div class="tab-content">
+                                    <div class="tab-pane " id="tab-1-1">
+									
+									<div id="container1" style="display: block;height:200px;width:75%;"></div>
+									</div>
+									
+                                    <div class="tab-pane fade show active" id="tab-1-2">
+									                                         
+																			 
+<table>
+  <tr>
+      <th>DB Version</th>
+    <th>Count</th>
+	</tr>   
+			
+	    {% for k,v in dbversions.items() %}
+
+                <tr>
+                  <td>{{k}}</td>
+                  <td>{{v}}</td>
+                 </tr>
+                 
+           {% endfor %}	    
+
+ 
+</table>
+									  </div>
+									  
+
+									
+                                </div><br></div>
+                        
+
+
+                                           <h4>DB Count</h4>
+                                           <table id="tbl">
+  <tr class="bg-primary">
+    <th>Total Database Count</th>
+    <th>{{ statistics['Total'] }}</th>
+  </tr>
+  <tr class="bg-success">
+    <td>Completed</td>
+    <td>{{ statistics['Completed'] }}</td>
+  </tr>
+  <tr class="bg-danger">
+    <td style=" color:white">Error</td>
+    <td><a  style="font-weight:bold; color:white" href="{{url_for('db_error')}}"><u>{{ statistics['Error'] }}</u></td>
+  </tr>
+  <tr class="bg-secondary">
+    <td style="color:white">Skipped</td>
+    <td ><a  style="font-weight:bold; color:white" href="{{url_for('db_skip')}}"><u>{{ statistics['Skipped'] }}</u></td>
+  </tr>
+  <tr class="bg-info" style="color:white">
+    <td style=" color:white">Locked</td>
+    <td><a style="font-weight:bold; color:white" href="{{url_for('db_Lock')}}"><u>{{ statistics['Locked'] }}</u></td>
+  </tr>
+<tr class="bg-dark" style="color:white">
+    <td style="color:white">Blackout</td>
+    <td><a style="font-weight:bold; color:white" href="{{url_for('db_test')}}"><u>{{ statistics['Blackout'] }}</u></td>
+  </tr>
+
+</table>
+                                        </div>
+                                      </td>
+
+                                  </tr>
+
+
+                          </table>
+                    </div>
+</div>
+<script type="text/javascript">
+let myChart = document.getElementById('myChart').getContext('2d');
+
+
+    let massPopChart = new Chart(myChart, {
+      type:'bar', // bar, horizontalBar, pie, line, doughnut, radar, polarArea
+      data:{
+         labels: ['FSCM', 'HRMS', 'PTools', 'EPM', 'Portal', 'CS', 'ELS', 'CRM'],
+           datasets:[{
+             label:'# of Apps',
+             data:{{ session['mvalues'] }},
+            backgroundColor:[
+               'rgba(255, 99, 132, 0.6)',
+               'rgba(54, 162, 235, 0.6)',
+               'rgba(255,255, 0, 0.6)',
+               'rgba(75, 192, 192, 0.6)',
+               'rgba(153, 102, 255, 0.6)',
+               'rgba(255, 159, 64, 0.6)',
+               'rgba(66,28,82, 0.6)',
+               'rgba(52, 140, 49, 0.6)'
+             ],
+          borderColor:'#777',
+          hoverBorderWidth:1,
+          hoverBorderColor:'#000'
+        }]
+      },
+      options:{
+        legend:{
+          display:true,
+          position:'right',
+          labels:{
+            fontColor:'#000'
+          }
+        },
+        layout:{
+          padding:{
+            left:25,
+            right:0,
+            bottom:0,
+            top:0
+          }
+        },
+        tooltips:{
+          enabled:true
+        }
+      }
+    });
+
+
+ anychart.onDocumentReady(function() {
+// set the data
+
+var data = [
+            {% for k in dbversions %}
+               {x:"{{k}}", value: {{dbversions[k]}}},
+            {% endfor %} 
+]
+
+
+// create the chart
+var chart = anychart.pie();
+
+// set the chart title
+// chart.title("Population by Race for the United States: 2010 Census");
+
+// add the data
+chart.data(data);
+// set legend position
+ chart.legend().position("right");
+ // set items layout
+ chart.legend().itemsLayout("vertical");
+
+// display the chart in the container
+chart.container('container1');
+chart.draw();
+
+});
+
+anychart.onDocumentReady(function() {
+var data = [
+            {% for k in db_type  %}
+               {x:"{{k}}", value: {{db_type[k]}}},
+            {% endfor %} 
+]
+// create a pie chart and set the data
+chart = anychart.pie(data);
+
+/* set the inner radius
+(to turn the pie chart into a doughnut chart)*/
+chart.innerRadius("30%");
+chart.legend().position("top");
+chart.labels().position("outside");
+
+chart.connectorStroke({color: "#595959", thickness: 4, dash:"2 2"});
+// set the container id
+chart.container("container2");
+
+// initiate drawing the chart
+chart.draw();
+
+});
+
+
+</script>
+{% endblock %}

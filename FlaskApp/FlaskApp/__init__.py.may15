@@ -1,0 +1,445 @@
+#!/usr/bin/python
+
+'''
+    PED flask application
+'''
+# Import modules
+from flask import Flask, render_template, flash, request, url_for, redirect, session, logging
+from passlib.hash import sha256_crypt
+from connect_db import OracleDB
+from functools import wraps
+from flask import jsonify
+from datetime import timedelta
+import datetime
+import collections
+import random
+import json
+import os
+import re 
+import yaml
+
+# Create Flask application Object
+app = Flask(__name__, instance_relative_config=True)
+
+# Load PED default config dictionary values
+app.config.from_object('config')
+
+# Load PED secret config from instance folder
+app.config.from_pyfile('config.py')
+
+# Create random  session key
+app.config['SECRET_KEY'] = 'd369342136ecd032f8b4a930b6bb2e0e'
+
+# Set session idle timeout
+app.permanent_session_lifetime = timedelta(minutes=5)
+
+# On every route call,reactivate session if timeout not met
+@app.before_request
+def make_session_permanent():
+    session.permanent = True
+
+# Login/Registration route 
+@app.route('/ped', strict_slashes=False, methods=['GET', 'POST'])
+def login():
+    # Form submitted using POST
+    if request.method == 'POST':
+        email = request.form['email']
+
+        # Identify login submit or register submit based on submit value
+        button_type = request.form['btn-submit']
+
+        # Create an object of DB Wrapper Class
+        db = OracleDB()
+		
+        # Connect to DB with Autocommit enabled,raise exception if error
+        try:
+            cur = db.connect()
+        except Exception as error:
+            flash('Sorry,Error in Database Connection', 'danger')
+            return redirect(url_for('login'))
+
+	# Registration form submitted,store encrypted password in database
+        if button_type == "register":
+            # Use SHA 256 one-way hash function to secure password
+            password = sha256_crypt.hash(request.form['regpassword'])
+
+            # Check if any existing record for the user
+            cur.execute("select * from INV_USER_LIST where email=:1", (email, ))
+            users = cur.fetchall()
+
+       	    # Email already exists in database
+            if cur.rowcount > 0:
+                db.disconnect()
+                flash('Already registered email address', 'danger')
+                return redirect(url_for('login'))
+            else:
+                try:
+		    # Insert new user into database
+                    cur.execute("INSERT INTO INV_USER_LIST(EMAIL,PASSWD,ENTERED_BY,ENTERED_DTTM,UPDATED_BY,UPDATED_DTTM) VALUES(:1, :2, :3, :4, :5, :6)", (email, password,email,datetime.datetime.now(),email,datetime.datetime.now()))
+                    flash('Successfully registered ,Please login now', 'success')
+                except:
+                    flash('Sorry,Error in registration', 'danger')
+                finally:
+                    # Disconnect Database
+                    db.disconnect()
+                    return redirect(url_for('login'))
+        else:
+	    # Normal login
+            password = request.form['password']
+
+            # Retrieve encrypted password and admin status from database
+            cur.execute("select PASSWD,IS_ADMIN from INV_USER_LIST where email=:1", (email, ))
+            user_details = cur.fetchone()
+            db.disconnect()
+
+	    # User not available in database
+            if cur.rowcount == 0:
+                flash('Sorry,you are not a registered user', 'danger')
+                return redirect(url_for('login'))
+
+	   # Valid Email id
+            else:
+		# Use sha256 verify function to match hashes of current password against one in DB
+                if sha256_crypt.verify(password, user_details[0]):
+
+		    # Valid User. Set session variables
+                    session['logged_in'] = True
+                    session['email'] = email
+                    session['username'] = re.split('[. @ _ -]', email)[0].capitalize() 
+                    session['is_admin'] = user_details[1]
+                    session['db_error'] = 'Sorry,Error in Database Connection'
+
+                    # Read emdba server timezone from emdba config
+                    with open(app.config["EMDBA_CONF_FILE"], 'r') as file:
+                        conf = yaml.load(file)
+                    session['emdba_tz']     = conf["emdba_details"]["time_zone"]
+
+
+		    # Redirct to application dashboard
+                    return redirect(url_for('dashboard'))
+                else:
+                    flash('Invalid Password', 'danger')
+                    return redirect(url_for('login'))
+	# Render login/Registration page to user
+    return render_template('login.html')
+
+# Flask decorator for authorization
+
+def is_logged_in(f):
+    @wraps(f)
+    def wrap(*args, **kwargs):
+        if 'logged_in' in session:
+            return f(*args, **kwargs)
+        else:
+            flash('Unauthorized access / Session expired, Please login', 'danger')
+            return redirect(url_for('login'))
+    return wrap
+
+
+# Dashboard route
+
+@app.route('/dashboard')
+@is_logged_in
+def dashboard():
+      # Create an object of DB Wrapper Class
+      db = OracleDB()
+
+      # Connect to DB with Autocommit enabled,raise exception if error
+      try:
+          cur = db.connect()
+      except Exception as error:
+          return redirect(url_for('logout',logout_msg=session['db_error']))
+
+      # Get emdba statistics from DB
+      cur.execute("SELECT 'Completed' AS STATUS, count(*) from INV_EMDBA_ENV UNION SELECT 'Skipped' AS STATUS, count(*) from INV_EMDBA_SKIP UNION SELECT 'Error' AS STATUS , COUNT(*) FROM INV_EMDBA_ERROR UNION SELECT 'Blackout' AS STATUS , COUNT(*) FROM INV_EMDBA_BLACKOUT")
+      statistics = dict(cur.fetchall())
+      # Total DB Servers exclude blackout
+      statistics['Total'] = sum(statistics.itervalues()) - statistics['Blackout']
+
+      # Get distinct Oracle versions and count
+      cur.execute("SELECT ORACLE_VERSION, COUNT(*) FROM INV_EMDBA_ENV GROUP BY ORACLE_VERSION")
+      dbversions = dict(cur.fetchall())
+      dbversions = collections.OrderedDict(sorted(dbversions.items()))
+
+      # Get timestamp of report generated
+      cur.execute("SELECT DISTINCT(REP_TIMESTAMP) FROM INV_EMDBA_ENV")
+      try:
+          session['report_time'] = cur.fetchone()[0]
+      except:
+          session['report_time'] = ''
+      db.disconnect()
+
+      return render_template('dashboard.html',statistics=statistics,dbversions=dbversions)
+
+# DB Info route
+
+@app.route('/db_info')
+@is_logged_in
+def db_info():
+      # Create an object of DB Wrapper Class
+      db = OracleDB()
+
+      # Connect to DB with Autocommit enabled,raise exception if error
+      try:
+          cur = db.connect()
+      except Exception as error:
+          return redirect(url_for('logout',logout_msg=session['db_error']))
+
+      # Get DB info 
+      cur.execute("SELECT /*+ FIRST_ROWS(10) */  DBSERVER,DBNAME,SLOT,DBOWNER,ORACLE_VERSION,DB_CREATION_DT,LAST_ACCESS_DATE,to_char(CEIL(SYSDATE-to_date(last_access_date,'yyyy-mm-dd') -1  ) )AS \"DAYS NOT ACCESSED FOR\",APPLICATION,TOOLS_MAJ_VERSION,TOOL_PTCH_VERSION,PATCH from INV_EMDBA_ENV WHERE last_access_date <>'NA' union SELECT /*+ FIRST_ROWS(10) */ DBSERVER,DBNAME,SLOT,DBOWNER,ORACLE_VERSION,DB_CREATION_DT,LAST_ACCESS_DATE,'NA' AS \"DAYS NOT ACCESSED FOR\" ,APPLICATION,TOOLS_MAJ_VERSION,TOOL_PTCH_VERSION,PATCH from INV_EMDBA_ENV WHERE last_access_date ='NA'")
+      db_info = cur.fetchall()
+
+      db.disconnect()
+
+      return render_template('db_info.html',db_info=db_info)
+
+# Route for Tools Version
+
+@app.route('/tools_version')
+@is_logged_in
+def tools_version():
+      # Create an object of DB Wrapper Class
+      db = OracleDB()
+
+      # Connect to DB with Autocommit enabled,raise exception if error
+      try:
+          cur = db.connect()
+      except Exception as error:
+          return redirect(url_for('logout',logout_msg=session['db_error']))
+
+      # Get  PT Tools Version
+      cur.execute("SELECT TOOLS_MAJ_VERSION, COUNT(*) FROM INV_EMDBA_ENV GROUP BY TOOLS_MAJ_VERSION")
+      tools_info = cur.fetchall()
+
+      db.disconnect()
+
+      return render_template('tools_version.html',tools_info=tools_info)
+
+# Route for DB Version Count
+
+@app.route('/db_version_count')
+@is_logged_in
+def db_version_count():
+      # Create an object of DB Wrapper Class
+      db = OracleDB()
+
+      # Connect to DB with Autocommit enabled,raise exception if error
+      try:
+          cur = db.connect()
+      except Exception as error:
+          return redirect(url_for('logout',logout_msg=session['db_error']))
+
+      # Get Oracle Version Info 
+      cur.execute("SELECT ORACLE_VERSION, COUNT(*) FROM INV_EMDBA_ENV GROUP BY ORACLE_VERSION")
+      oracle_versions = cur.fetchall()
+
+      db.disconnect()
+
+      return render_template('db_version_count.html',oracle_versions=oracle_versions)
+
+# Route for Patch Count
+
+@app.route('/ora_patch_count')
+@is_logged_in
+def ora_patch_count():
+      # Create an object of DB Wrapper Class
+      db = OracleDB()
+
+      # Connect to DB with Autocommit enabled,raise exception if error
+      try:
+          cur = db.connect()
+      except Exception as error:
+          return redirect(url_for('logout',logout_msg=session['db_error']))
+
+      # Get DB Patch Info 
+      cur.execute("select oracle_version, patch ,count(*),(select count(*) from inv_emdba_env i where i.oracle_version=o.oracle_version group by oracle_version  ) from inv_emdba_env o group by oracle_version, patch order by oracle_version")
+      patch_tuple = cur.fetchall()
+
+      # Using an ordered data structure like list of tuples.
+      # This is to avoid table rendering difficulties using datatables over nested dictionary
+      ora_matched=[]
+      patch_versions=[]
+      for ora_version,patch,patch_count,ora_count in patch_tuple:
+        if ora_version not in ora_matched:
+          ora_matched.append(ora_version) 
+          # Skipping oracle version count
+          patch_versions.append((ora_version,''))
+          patch_versions.append((patch,patch_count))
+        else: 
+          patch_versions.append((patch,patch_count))
+
+      db.disconnect()
+      return render_template('ora_patch_count.html',patch_versions=patch_versions)
+
+# Update emdba configuration yml file
+
+@app.route('/update_emdba_config',methods=['GET', 'POST'])
+@is_logged_in
+def update_emdba_config():
+
+    emdba_dict = {}
+    emdba_conf = app.config["EMDBA_CONF_FILE"]
+
+    # Form submitted
+    if request.method == 'POST':
+        emdba_dict['host'] = request.form['host']
+        emdba_dict['username'] = request.form['username']
+        emdba_dict['password'] = request.form['password']
+        emdba_dict['remote_dir'] = request.form['remote_dir']
+        emdba_dict['time_zone'] = request.form['time_zone']
+
+        # If all fields are blank
+        if all(value == '' for value in emdba_dict.values()):
+            msg = 'Please update atleast one field'
+            return render_template('update_emdba_config.html',msg=msg)
+
+        # Load file using yml parser. Exception if error
+        try:
+            with open(emdba_conf, 'r') as file:
+                conf = yaml.load(file)
+        except Exception as error:
+          msg = 'Sorry,could not open emdba configuration file'
+          return render_template('update_emdba_config.html',msg=msg)
+
+        # Form submitted fields contain unicode by default.Ignore them using ascii encoding
+        for key,value in emdba_dict.items():
+            if value:
+                conf['emdba_details'][key] = value.encode('ascii', 'ignore')
+
+        # Open yml in write mode.Dump updated fields along with others
+        try:
+            with open(emdba_conf, 'w') as file:
+                file.write( yaml.dump(conf, default_flow_style=False))
+            msg = 'File updated successfully'
+        except Exception as error:
+            msg = 'Sorry,could not update emdba configuration file'
+        finally:
+            return render_template('update_emdba_config.html',msg=msg)
+
+    return render_template('update_emdba_config.html')
+
+
+# User Management for Admin
+
+@app.route('/user_mangement',  methods=['GET', 'POST'])
+@is_logged_in
+def user_management():
+
+    # Create an object of DB Wrapper Class
+    db = OracleDB()
+
+    # Connect to DB with Autocommit enabled,raise exception if error
+    try:
+        cur = db.connect()
+    except Exception as error:
+        flash('Sorry,Error in Database Connection', 'danger')
+        return redirect(url_for('login'))
+    # Render html with list of current users excluding logged in user
+    cur.execute("select EMAIL from INV_USER_LIST WHERE EMAIL NOT IN ('" + session['email'] + "') order by EMAIL")
+    user_list = cur.fetchall()
+
+    # Form submitted using POST
+    if request.method == 'POST':
+        button_type = request.form['submit']
+
+        #If submission from Add User page
+        if button_type == "add_user":
+            user_add_email = request.form['user_add_email']
+            is_admin =  "Y" if request.form.get('isadmin') else "N"
+
+            # Check admin type if user exists
+            cur.execute("select IS_ADMIN from INV_USER_LIST where email=:1", (user_add_email, ))
+            admin_type = cur.fetchone()
+
+            # New user
+            if cur.rowcount == 0:
+                cur.execute("INSERT INTO INV_USER_LIST(EMAIL,PASSWD,ENTERED_BY,ENTERED_DTTM,UPDATED_BY,UPDATED_DTTM,IS_ADMIN) VALUES(:1, :2, :3, :4, :5, :6, :7)", (user_add_email, sha256_crypt.hash("ped123"),session['email'],datetime.datetime.now(),session['email'],datetime.datetime.now(),is_admin))
+                msg = "User added successfully"
+
+            else:
+                # Email already exists in database with same ACL
+                if is_admin == admin_type[0]:
+                    msg = "User already exists"
+                # Admin Request for normal user
+                else:
+                    if is_admin == 'Y':
+                        cur.execute("UPDATE INV_USER_LIST SET IS_ADMIN = :1,UPDATED_BY = :2,UPDATED_DTTM = :3 WHERE EMAIL = :4", (is_admin,session['email'],datetime.datetime.now(),user_add_email))
+                        msg = "Admin access granted for "+user_add_email
+                    else:
+                        msg = "User already exists"
+        # If Submission happened from Remove User Page
+        elif button_type == "remove_user":
+
+            # Identify remove user / revoke admin form is submitted
+            form_type = request.form['optradio']
+
+            # Get selected user email for remove/revoke
+            user_remove_email     = request.form['ddlListName']
+
+            # Remove user from DB
+            if form_type == 'remove_form':
+                cur.execute("DELETE FROM INV_USER_LIST WHERE EMAIL = :1", (user_remove_email,))
+                msg = "Successfully removed "+ user_remove_email
+
+            # Revoke admin access for user
+            elif form_type == 'revoke_form':
+                cur.execute("UPDATE INV_USER_LIST SET IS_ADMIN = 'N',UPDATED_BY = :1,UPDATED_DTTM = :2 WHERE EMAIL = :3", (session['email'],datetime.datetime.now(),user_remove_email))
+                msg = "Successfully revoked admin access for "+ user_remove_email
+        
+        # Update new list of users after addition/deletion
+        cur.execute("select EMAIL from INV_USER_LIST")
+        user_list = cur.fetchall()
+
+        db.disconnect()
+        return render_template('user_management.html',user_list=user_list,msg=msg)
+
+    return render_template('user_management.html',user_list=user_list);
+
+# Fetch  all users/admins based on 'remove user' or 'revoke admin' operation
+@app.route('/fetch_users/<operation>')
+@is_logged_in
+def fetch_users(operation):
+
+      # Create an object of DB Wrapper Class
+      db = OracleDB()
+
+      # Connect to DB with Autocommit enabled,raise exception if error
+      try:
+          cur = db.connect()
+      except Exception as error:
+          flash('Sorry,Error in Database Connection', 'danger')
+          return redirect(url_for('login'))
+
+      # If revoke admin operation, select users from DB where is_admin ='Y'. Else, select both Y & N
+      admin_flag = ['Y'] if operation == 'revoke' else ['Y','N']
+
+      # Convert list to string
+      admin_flag = "('{0}')".format("','".join(map(str, admin_flag)))
+
+      # Update user list excluding logged in user
+      cur.execute("select EMAIL from INV_USER_LIST WHERE IS_ADMIN IN " + admin_flag + " AND EMAIL NOT IN ('" + session['email'] + "') order by EMAIL")
+      user_list = cur.fetchall()
+
+      db.disconnect()
+
+      # jsonify results
+      return  json.dumps(user_list)
+
+# Session logout
+
+@app.route('/logout')
+@app.route('/logout/<logout_msg>')
+@is_logged_in
+def logout(logout_msg=None):
+
+    # Clear all session variables
+    session.clear()
+    if logout_msg:
+        flash(logout_msg, 'danger')
+    else:
+        flash('Logged out successfully', 'success')
+    return redirect(url_for('login'))
+
+#Enable below lines for development mode
+#if __name__ == "__main__":
+#    app.run(host='0.0.0.0', port=5001, debug=True)

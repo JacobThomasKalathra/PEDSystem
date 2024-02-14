@@ -1,0 +1,80 @@
+{% extends 'inv_landing.html' %}
+
+{% block body %}
+<script src="/static/js/custom.js"></script>
+<style media="screen">
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+#btn {
+
+   color: white;
+   padding: 16px 20px;
+   margin: 8px 0;
+   border: none;
+   cursor: pointer;
+   width: 13%;
+   opacity: 0.9;
+   background: linear-gradient(#0f384e,#afbec5);
+   margin-left: 40%;
+   border-radius: 10px;
+}
+
+</style>
+       <div>
+        {% if msg %}
+         <script>
+           var flash="{{msg|safe}}";
+           alert (flash);
+         </script>
+       {% endif %}
+        </div> 
+
+<div class="ibox border" >
+                    <div class="ibox-head">
+                        <div class="ibox-title">Update Emdba Configuration</div>
+                    </div>
+                       <form id="login-form" action="" method="POST" role="form" style="display: block;"onSubmit="return anyvalidate()">
+                    <div class="ibox-body">
+
+                       <hr>
+                       <label><b>EMDBA Server</b></label>
+                       <input type="text" placeholder="Enter Host Name" name="host" id="host" value="{{request.form.host}}">
+
+                       <label><b>EMDBA Username</b></label>
+                       <input type="text" placeholder="Enter Username" name="username" id="username" value="{{request.form.username}}">
+
+                       <label><b>EMDBA Password</b></label>
+                       <input type="password" placeholder="Enter Password" name="password" id="password" value="{{request.form.password}}">
+
+                       <label><b>EMDBA Report Directory</b></label>
+                       <input type="text" placeholder="Enter Remote Directory"  name="remote_dir" id="remote_dir" value="{{request.form.remote_dir}}">
+                       <label><b>EMDBA Server TimeZone</b></label>
+                       <input type="text" placeholder="PDT/UTC/IST"  name="time_zone" id="time_zone" onkeyup="this.value=this.value.toUpperCase();" value="{{request.form.time_zone}}">
+                       <hr>
+                       <button id="btn" type="submit">Update</button> 
+                    </form>
+                     </div>
+
+
+          </div>
+
+{% endblock %}
