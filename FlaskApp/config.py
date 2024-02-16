@@ -1,4 +1,4 @@
-DB_HOST     = "slc10ger.us.oracle.com"
+DB_HOST     = "hostname"
 DB_PORT     = "1521"
 DB_SID      = "CADEVDB"
 DB_USERNAME = "invdev"
