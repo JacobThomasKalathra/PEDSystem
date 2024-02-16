@@ -1,4 +1,4 @@
-DB_HOST     = "slc04wva.us.oracle.com"
+DB_HOST     = "server"
 DB_PORT     = "1521"
 DB_SID      = "PMSDEVDB"
 DB_USERNAME = "emdbo"
