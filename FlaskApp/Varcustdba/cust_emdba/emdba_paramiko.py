@@ -7,7 +7,7 @@ Parse each report file and insert data into DB after cleanup
 Script to be executed by a cron
 
 Change log:
-03/07/2019 : Aswin George
+03/07/2019 
            - Initial Version
 """
 
